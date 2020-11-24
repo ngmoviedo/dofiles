@@ -112,6 +112,9 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 " Better substitutions
 Plug 'osyo-manga/vim-over'
 
+" Easy motions
+Plug 'easymotion/vim-easymotion'
+
 " Initialize plugin system
 call plug#end()
 
@@ -120,6 +123,7 @@ nnoremap <silent> <C-n> :set relativenumber!<cr>
 
 " OverCommandLine for substitutions
 nnoremap <silent> <F2> :OverCommandLine <CR>
+nnoremap <silent> S :OverCommandLine <CR> :%s/
 
 " Usual clipboard mappings
 inoremap <C-v> <ESC>"+pa
@@ -130,91 +134,20 @@ set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 " Change leader
 let mapleader = " "
 
-" LaTeX (vimtex)
-" PDF viewer 
-let g:vimtex_view_method = 'zathura'
+"LaTeX configuration
+source ~/.vim/latex.vim
 
-" TOC viewer
-let g:lens#disabled_filenames = ['Table of contents*']
-au FileType tex,latex map º :VimtexTocToggle <CR>
+" Easymotion
+source ~/.vim/easymotion.vim
 
-" Dictionary
-let g:tex_flavor = "latex"
-autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=es
-set spellfile=~/.vim/spell/dict_es.add
+" Pandoc
+source ~/.vim/pandoc.vim
 
-" Concealment
-set conceallevel=2
-let g:tex_conceal = 'abdmg'
-
-
-" Autocompletion
-" coc.nvim snippets. Make <tab> used for trigger completion, completion confirm, snippet expand and jump like VSCode.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? coc#_select_confirm() :
-      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-" Snippet navigation
-let g:coc_snippet_next = '<tab>'
-
-" coc.nvim recommended setting
-source ~/.vim/cocrc.vim
-let g:airline#extensions#coc#enabled = 1
-
-
-" Pandoc configuration (spelling and completion)
-let g:pandoc#spell#default_langs=["es"]
-
-
-" Autoclose 
-" General
-"source ~/.vim/autoclose.vim " delimitmate is enough
-" LaTeX
-au FileType tex,latex let b:delimitMate_quotes = "$ \" '"
-autocmd BufRead,BufNewFile *.tex source ~/.vim/autoclose_latex.vim
-" Markdown (pandoc)
-autocmd BufRead,BufNewFile *.md source ~/.vim/autoclose_markdown.vim
-
-
-" Themes and colours
-" Color scheme
-set termguicolors
-set background=dark
-let g:gruvbox_material_background = 'soft'
-colorscheme gruvbox-material
-set fillchars=""
-
-" Airline styling
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-
-" GUI font
-if has("gui_running")
-	set guifont=JetBrains\ Mono\ Nerd\ Font\ 13
-endif
-
-" Fix for kitty terminal
-let &t_ut=''
-
+" Themes and colors
+source ~/.vim/theme.vim
 
 " File explorer (netrw)
-let g:netrw_banner = 0
-let g:netrw_liststyle = 1
-let g:netrw_browse_split = 0
-let g:netrw_winsize = 25 
-let g:netrw_altv = 1
-let g:lens#disabled_filetypes = ['netrw']
-augroup ProjectDrawer " Automatically opens netrw if no file is indicated
-    autocmd!
-    autocmd VimEnter * if argc() == 0 | Explore! | endif
-augroup END
+source ~/.vim/netrw.vim
 
 
 
