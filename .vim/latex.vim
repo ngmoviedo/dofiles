@@ -16,6 +16,11 @@ set spellfile=~/.vim/spell/dict_es.add
 " Concealment
 set conceallevel=2
 let g:tex_conceal = 'abdmg'
+augroup vimrc " Only in normal mode
+  autocmd!
+  autocmd InsertEnter *.tex set conceallevel=0
+  autocmd InsertLeave *.tex set conceallevel=2
+augroup END
 
 " Autoclose
 au FileType tex,latex let b:delimitMate_quotes = "$ \" '"
