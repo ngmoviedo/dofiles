@@ -62,11 +62,9 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
-" LaTeX edition
-Plug 'lervag/vimtex'
 
-" Git integration
-Plug 'tpope/vim-fugitive'
+" LaTeX edition
+Plug 'lervag/vimtex', {'for': 'tex'}
 
 " Autocompletion and snippets
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -78,15 +76,24 @@ Plug 'KeitaNakamura/tex-conceal.vim', {'for': 'tex'}
 " Pair matching
 Plug 'vim-scripts/matchit.zip'
 
+" Commentary
+Plug 'tpope/vim-commentary'
+
+" Surround
+Plug 'tpope/vim-surround'
+
+" Repeat
+Plug 'tpope/vim-repeat'
+
 " MATLAB edition (witch matchit integration)
-Plug 'vim-scripts/MatlabFilesEdition'
+Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab'}
 
 " Pandoc support
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-pandoc', {'for': 'pandoc'}
+Plug 'vim-pandoc/vim-pandoc-syntax', {'for': 'pandoc'}
 
 " Fish syntax highlighting
-Plug 'dag/vim-fish'
+Plug 'dag/vim-fish', {'for': 'fish'}
 
 " Color schemes
 Plug 'sainnhe/gruvbox-material'
@@ -101,8 +108,7 @@ Plug 'tpope/vim-vinegar'
 " Autoclose pairs
 Plug 'raimondi/delimitmate'
 
-" Resize
-"Plug 'roman/golden-ratio'
+" Resize windows
 Plug 'camspiers/lens.vim'
 Plug 'camspiers/animate.vim'
 
@@ -121,6 +127,11 @@ call plug#end()
 " Change line numbers
 nnoremap <silent> <C-n> :set relativenumber!<cr>
 
+" Indent guides
+" (there's an space at the end)
+set listchars=tab:\¦\ 
+set list
+
 " OverCommandLine for substitutions
 nnoremap <silent> <F2> :OverCommandLine <CR>
 nnoremap <silent> S :OverCommandLine <CR> :%s/
@@ -131,17 +142,11 @@ vnoremap <C-c> "+y
 vnoremap <C-x> "+d
 set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 
-" Change leader
+" Change leader to space
 let mapleader = " "
 
-"LaTeX configuration
-source ~/.vim/latex.vim
-
-" Easymotion
-source ~/.vim/easymotion.vim
-
-" Pandoc
-source ~/.vim/pandoc.vim
+" Autocompletion
+source ~/.vim/autocompletion.vim
 
 " Themes and colors
 source ~/.vim/theme.vim
@@ -149,9 +154,6 @@ source ~/.vim/theme.vim
 " File explorer (netrw)
 source ~/.vim/netrw.vim
 
+" Easymotion
+source ~/.vim/easymotion.vim
 
-
-
-" MATLAB code checker
-"autocmd BufEnter *.m compiler /usr/local/MATLAB/R2019b/bin/glnxa64/mlint
-"autocmd BufEnter *.m compiler mlint

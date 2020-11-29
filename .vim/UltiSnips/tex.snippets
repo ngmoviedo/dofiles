@@ -112,6 +112,18 @@ snippet L2R "L2(R) set" iA
 \bm{L}^2({\mathbb{R}})
 endsnippet
 
+snippet L2i "L2([a,b]) set" iA
+\bm{L}^2(\[${1:a},${2:b}\])$0
+endsnippet
+
+snippet l2R "l2(R) set" iA
+\ell^2({\mathbb{R}})
+endsnippet
+
+snippet l2i "l2([a,b]) set" iA
+\ell^2(\[${1:a},${2:b}\])$0
+endsnippet
+
 # Usual symbols
 snippet int "definite integral" i
 \int_{${1:a}}^{${2:b}}$0
@@ -121,14 +133,39 @@ snippet Int "infinite integral" i
 \int_{-\infty}^{+\infty}
 endsnippet
 
+snippet sum "finite sum" i
+\sum_{${1:k}=${2:a}}^{${3:b}}$0
+endsnippet
+
+snippet Sum "infinite sum" i
+\sum_{${1:k}-\infty}^{+\infty}$0
+endsnippet
+
 snippet lim "limit" i
 \lim_{${1:x}\to${2:0}}$0
 endsnippet
 
 snippet 'hat(\w)' "hat" riA
-\\hat{`!p snip.rv = match.group(1)`}
+\\widehat{`!p snip.rv = match.group(1)`}
 endsnippet
 
 snippet oo "infinite" i
 \infty
+endsnippet
+
+# Adjustable brackets (last character is added by DelimitMate)
+snippet \[ "adjustable bracket" iA
+\left\[$1\right\$0
+endsnippet
+
+snippet \{ "adjustable curly braces" iA
+\left\{$1\right\$0
+endsnippet
+
+snippet \( "adjustable parenthesis" iA
+\left($1\right$0
+endsnippet
+
+snippet \< "scalar product angles" iA
+\langle $1\rangle$0
 endsnippet

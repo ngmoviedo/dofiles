@@ -1,17 +1,18 @@
 " LaTeX (vimtex)
 " PDF viewer 
 let g:vimtex_view_method = 'zathura'
-" Syntax highlighting suddenly became horrible
-let g:vimtex_syntax_enabled=0
+hi clear SpellBad
+hi SpellBad ctermfg=NONE ctermbg=000 cterm=none gui=undercurl
+
 
 " TOC viewer
 let g:lens#disabled_filenames = ['Table of contents*']
-au FileType tex,latex map º :VimtexTocToggle <CR>
+map º :VimtexTocToggle <CR>
 
 " Dictionary
 let g:tex_flavor = "latex"
-autocmd BufRead,BufNewFile *.tex setlocal spell spelllang=es
-set spellfile=~/.vim/spell/dict_es.add
+setlocal spell spelllang=es
+set spellfile=~/.vim/spell/dict-es.add
 
 " Concealment
 set conceallevel=2
@@ -23,5 +24,4 @@ augroup vimrc " Only in normal mode
 augroup END
 
 " Autoclose
-au FileType tex,latex let b:delimitMate_quotes = "$ \" '"
-autocmd BufRead,BufNewFile *.tex source ~/.vim/autoclose_latex.vim
+let b:delimitMate_quotes = "$ \" '"

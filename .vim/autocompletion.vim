@@ -16,4 +16,3 @@ let g:coc_snippet_next = '<tab>'
 
 " coc.nvim recommended setting
 source ~/.vim/cocrc.vim
-let g:airline#extensions#coc#enabled = 1
