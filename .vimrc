@@ -146,14 +146,14 @@ set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 let mapleader = " "
 
 " Autocompletion
-source ~/.vim/autocompletion.vim
+source ~/.vim/scripts/autocompletion.vim
 
 " Themes and colors
-source ~/.vim/theme.vim
+source ~/.vim/scripts/theme.vim
 
 " File explorer (netrw)
-source ~/.vim/netrw.vim
+source ~/.vim/scripts/netrw.vim
 
 " Easymotion
-source ~/.vim/easymotion.vim
+source ~/.vim/scripts/easymotion.vim
 
