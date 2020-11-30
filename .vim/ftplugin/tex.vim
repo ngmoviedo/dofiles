@@ -1,9 +1,6 @@
 " LaTeX (vimtex)
 " PDF viewer 
 let g:vimtex_view_method = 'zathura'
-hi clear SpellBad
-hi SpellBad cterm=underline gui=undercurl
-
 
 " TOC viewer
 let g:lens#disabled_filenames = ['Table of contents*']

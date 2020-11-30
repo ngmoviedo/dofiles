@@ -132,6 +132,12 @@ nnoremap <silent> <C-n> :set relativenumber!<cr>
 set listchars=tab:\¦\ 
 set list
 
+" Bad spelling highlight (red undercurl)
+hi clear SpellBad
+let &t_Cs = "\e[4:3m"
+let &t_Ce = "\e[4:0m"
+hi SpellBad     gui=undercurl guisp=red term=undercurl cterm=undercurl
+
 " OverCommandLine for substitutions
 nnoremap <silent> <F2> :OverCommandLine <CR>
 nnoremap <silent> S :OverCommandLine <CR> :%s/
