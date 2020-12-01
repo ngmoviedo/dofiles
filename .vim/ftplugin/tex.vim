@@ -24,8 +24,8 @@ augroup END
 " Quotes and math
 let b:delimitMate_quotes = "$ \" '"
 " Simple brackets
-inoremap \[ \[\]<left><left>
-inoremap \{ \{\}<left><left>
+"inoremap \[ \[\]<left><left>
+"inoremap \{ \{\}<left><left>
 " Centering brackets
 inoremap \[<CR> \[<CR>\]<ESC>O
 inoremap \{<CR> \{<CR>\}<ESC>O
