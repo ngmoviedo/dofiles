@@ -47,7 +47,7 @@ set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
-set number relativenumber		" Enable line numbers
+set number relativenumber " Enable line numbers
 set scrolloff=1		" Always show at least one line above/below the cursor.
 
 " Source a global configuration file if available
@@ -106,7 +106,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-vinegar'
 
 " Autoclose pairs
-Plug 'raimondi/delimitmate'
+Plug 'tmsvg/pear-tree'
 
 " Resize windows
 Plug 'camspiers/lens.vim'
@@ -121,8 +121,14 @@ Plug 'osyo-manga/vim-over'
 " Easy motions
 Plug 'easymotion/vim-easymotion'
 
+" Asynchronous linting
+Plug 'dense-analysis/ale'
+
 " Initialize plugin system
 call plug#end()
+
+" Change leader to space
+let mapleader = " "
 
 " Change line numbers
 nnoremap <silent> <C-n> :set relativenumber!<cr>
@@ -142,10 +148,7 @@ vnoremap <C-c> "+y
 vnoremap <C-x> "+d
 set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 
-" Change leader to space
-let mapleader = " "
-
-" Autocompletion
+" Autocompletion and linting
 source ~/.vim/scripts/autocompletion.vim
 
 " Themes and colors

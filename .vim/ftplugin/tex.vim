@@ -6,10 +6,14 @@ let g:vimtex_view_method = 'zathura'
 let g:lens#disabled_filenames = ['Table of contents*']
 map º :VimtexTocToggle <CR>
 
-" Dictionary
+" Dictionary and spell checking
 let g:tex_flavor = "latex"
 setlocal spell spelllang=es
-set spellfile=~/.vim/spell/dict-es.add
+setlocal spellfile=~/.vim/spell/dict-es.add
+setlocal dictionary=/usr/share/dict/spanish
+
+"Linting
+let b:ale_fixers = ['latexindent', 'remove_trailing_lines', 'trim_whitespace']
 
 " Concealment
 set conceallevel=2
@@ -21,17 +25,29 @@ augroup vimrc " Only in normal mode
 augroup END
 
 " Autoclose
-" Quotes and math
-let b:delimitMate_quotes = "$ \" '"
+let g:pear_tree_pairs = {
+            \ '(': {'closer': ')', 'not_at':['\\']},
+            \ '[': {'closer': ']', 'not_at':['\\']},
+            \ '{': {'closer': '}', 'not_at':['\\']},
+            \ "'": {'closer': "'"},
+            \ '"': {'closer': '"'},
+            \ '$': {'closer': '$'},
+            \ '\\left(': {'closer': '\\right)'},
+            \ '\\left[': {'closer': '\\right]'},
+            \ '\\left\\{': {'closer': '\\right\\}'},
+            \ '\\left\\langle': {'closer': '\\right\\rangle'},
+            \ '\\langle': {'closer': '\\rangle'}
+            \ }
+
 " Simple brackets
 "inoremap \[ \[\]<left><left>
 "inoremap \{ \{\}<left><left>
 " Centering brackets
-inoremap \[<CR> \[<CR>\]<ESC>O
-inoremap \{<CR> \{<CR>\}<ESC>O
+" inoremap \[<CR> \[<CR>\]<ESC>O
+" inoremap \{<CR> \{<CR>\}<ESC>O
 " Scalable parenthesis and brackets
-inoremap \( \left(\right)<left><left><left><left><left><left><left>
-inoremap \[ \left[\right]<left><left><left><left><left><left><left>
-inoremap \{ \left\{\right\}<left><left><left><left><left><left><left><left>
+" inoremap \( \left(\right)<left><left><left><left><left><left><left>
+" inoremap \[ \left[\right]<left><left><left><left><left><left><left>
+" inoremap \{ \left\{\right\}<left><left><left><left><left><left><left><left>
 " Jump over closing character
-inoremap <S-Tab> <Esc>/[$)}\]\|>]<CR>:nohl<CR>a
+" inoremap <S-Tab> <Esc>/[$)}\]\|>]<CR>:nohl<CR>a

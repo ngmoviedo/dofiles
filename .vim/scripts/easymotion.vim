@@ -7,16 +7,6 @@ map <Space> <Plug>(easymotion-prefix)
 " `s{char}{char}{label}`
 nmap s <Plug>(easymotion-overwin-f2)
 
-" Multiple character searches
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-
-" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
-" Without these mappings, `n` & `N` works fine. (These mappings just provide
-" different highlight method and have some other features )
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
-
 " Directions
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 map <Leader>l <Plug>(easymotion-lineforward)
@@ -31,4 +21,19 @@ nmap <Leader>w <Plug>(easymotion-overwin-w)
 
 " Smartcase
 let g:EasyMotion_smartcase = 1
+
+
+" Multiple character searches
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
+" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
+" Without these mappings, `n` & `N` works fine. (These mappings just provide
+" different highlight method and have some other features )
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+
+" The same, without using the plugin
+" set hlsearch
+" nnoremap <esc> :noh<return><esc>
 
