@@ -36,7 +36,8 @@ set recolor-keephue             "false"
 
 # Reverse search for vimtex
 set synctex true
-set synctex-editor-command "vim --remote-silent +%{line} %{input}"
+# set synctex-editor-command "vim --remote-silent +%{line} %{input}"
+set synctex-editor-command "nvr --remote +%"line" %"input""
 
 # Copy to clipboard
 set selection-clipboard clipboard

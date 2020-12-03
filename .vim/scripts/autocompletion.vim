@@ -2,7 +2,7 @@
 let g:ale_disable_lsp = 1
 let g:airline#extensions#ale#enabled = 1
 nmap <silent> <C-e> <Plug>(ale_previous_wrap)
-nmap <silent> <C-w> <Plug>(ale_next_wrap)
+nmap <silent> <C-a> <Plug>(ale_next_wrap)
 
 " Autocompletion
 " Some servers have issues with backup files, see #649.

@@ -39,6 +39,11 @@ let g:pear_tree_pairs = {
             \ '\\langle': {'closer': '\\rangle'}
             \ }
 
+" Shortcuts
+nmap <F4> <plug>(vimtex-view)
+nmap <F5> <plug>(vimtex-compile)
+nmap <F6> <plug>(vimtex-errors)
+
 " Simple brackets
 "inoremap \[ \[\]<left><left>
 "inoremap \{ \{\}<left><left>

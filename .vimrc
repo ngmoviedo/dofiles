@@ -65,65 +65,54 @@ call plug#begin('~/.vim/plugged')
 
 " LaTeX edition
 Plug 'lervag/vimtex', {'for': 'tex'}
-
-" Autocompletion and snippets
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'honza/vim-snippets'
-
-" Better concealing for LaTeX
 Plug 'KeitaNakamura/tex-conceal.vim', {'for': 'tex'}
 
-" Pair matching
-Plug 'vim-scripts/matchit.zip'
-
-" Commentary
-Plug 'tpope/vim-commentary'
-
-" Surround
-Plug 'tpope/vim-surround'
-
-" Repeat
-Plug 'tpope/vim-repeat'
-
-" MATLAB edition (witch matchit integration)
+" MATLAB edition 
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab'}
 
-" Pandoc support
+" Pandoc edition
 Plug 'vim-pandoc/vim-pandoc', {'for': 'pandoc'}
 Plug 'vim-pandoc/vim-pandoc-syntax', {'for': 'pandoc'}
 
 " Fish syntax highlighting
 Plug 'dag/vim-fish', {'for': 'fish'}
 
-" Color schemes
-Plug 'sainnhe/gruvbox-material'
+" Autocompletion, linting and snippets
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets'
+Plug 'dense-analysis/ale'
 
-" Airline
+" Pair matching and autoclose tools
+Plug 'vim-scripts/matchit.zip'
+Plug 'tpope/vim-surround'
+Plug 'tmsvg/pear-tree'
+
+" Comment lines out
+Plug 'tpope/vim-commentary'
+
+" Repeat plugin actions
+Plug 'tpope/vim-repeat'
+
+" Comfortable motions, visual substitutions and line numering
+Plug 'easymotion/vim-easymotion'
+Plug 'osyo-manga/vim-over'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
+" Color schemes and status bar
+Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" Vinegar (file explorer)
+" Distraction free edition
+Plug 'junegunn/goyo.vim'
+
+" File manager (netrw) improvements
 Plug 'tpope/vim-vinegar'
 
-" Autoclose pairs
-Plug 'tmsvg/pear-tree'
-
-" Resize windows
+" Auto resize windows
 Plug 'camspiers/lens.vim'
 Plug 'camspiers/animate.vim'
-
-" Change line numbers type
-Plug 'jeffkreeftmeijer/vim-numbertoggle'
-
-" Better substitutions
-Plug 'osyo-manga/vim-over'
-
-" Easy motions
-Plug 'easymotion/vim-easymotion'
-
-" Asynchronous linting
-Plug 'dense-analysis/ale'
-
+"
 " Initialize plugin system
 call plug#end()
 
@@ -147,6 +136,9 @@ inoremap <C-v> <ESC>"+pa
 vnoremap <C-c> "+y
 vnoremap <C-x> "+d
 set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
+
+" Distraction mode
+nmap <F3> :Goyo<cr>
 
 " Autocompletion and linting
 source ~/.vim/scripts/autocompletion.vim
