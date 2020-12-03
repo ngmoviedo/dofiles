@@ -21,6 +21,9 @@ call plug#begin(stdpath('data') . '/plugged')
 
 " Make sure you use single quotes
 
+" Startup page
+Plug 'mhinz/vim-startify'
+
 " LaTeX edition
 Plug 'lervag/vimtex', {'for': 'tex'}
 Plug 'KeitaNakamura/tex-conceal.vim', {'for': 'tex'}
@@ -100,14 +103,14 @@ set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 nmap <F3> :Goyo<cr>
 
 " Autocompletion and linting
-source ~/.vim/scripts/autocompletion.vim
+source ~/.config/nvim/scripts/autocompletion.vim
 
 " Themes and colors
-source ~/.vim/scripts/theme.vim
+source ~/.config/nvim/scripts/theme.vim
 
 " File explorer (netrw)
-source ~/.vim/scripts/netrw.vim
+source ~/.config/nvim/scripts/netrw.vim
 
 " Easymotion
-source ~/.vim/scripts/easymotion.vim
+source ~/.config/nvim/scripts/easymotion.vim
 
