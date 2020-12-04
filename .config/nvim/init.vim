@@ -73,12 +73,15 @@ Plug 'tpope/vim-vinegar'
 " Auto resize windows
 Plug 'camspiers/lens.vim'
 Plug 'camspiers/animate.vim'
-"
+
 " Initialize plugin system
 call plug#end()
 
 " Change leader to space
 let mapleader = " "
+
+" Don't highlight matching pair
+set noshowmatch
 
 " Change line numbers
 set number relativenumber " Enable line numbers
