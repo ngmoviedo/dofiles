@@ -15,6 +15,7 @@ shittyfiles = [
     '~/.dbus',
     '~/.nv/',
     '~/.viminfo',           # configured to be moved to ~/.cache/vim/viminfo, but it is still sometimes created...
+    '.vimrc_background',
     '~/.npm/',              # npm cache
     '~/.java/',
     '~/.oracle_jre_usage/',
@@ -26,7 +27,7 @@ shittyfiles = [
     '~/.python_history',
     '~/.config/enchant',
     '~/.config/QtProject.conf',
-    '~/.config/pulse/',
+    '~/.config/dconf/'
 ]
 
 
