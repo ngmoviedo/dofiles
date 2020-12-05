@@ -17,8 +17,7 @@ set scrolloff=1		" Always show at least one line above/below the cursor.
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-" call plug#begin(stdpath('data') . '/plugged')
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin(stdpath('data') . '/plugged')
 
 " Make sure you use single quotes
 

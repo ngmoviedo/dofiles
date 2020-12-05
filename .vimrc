@@ -43,4 +43,4 @@ filetype plugin indent on
 set incsearch		" Incremental search
 set showcmd		" Show (partial) command in status line.
 
-source ~/.config/nvim/init.vim
+"source ~/.config/nvim/init.vim
