@@ -10,6 +10,10 @@ The colors have been chosen to match [Gruvbox](https://github.com/morhetz/gruvbo
 
 [i3-gaps](https://github.com/Airblader/i3) is used as window manager with its default *dmenu* as application launcher. Key bindings are slightly modified to match *vi*'s, to control brightness (using [light](https://github.com/haikarainen/light) through function keys (F9, F10) and volume through media keys or, alternatively, +, - and *Intro* keys on the numpad. *i3lock* is used as screen locker. Wallpaper is handled by [feh](https://github.com/derf/feh). For more details see [i3's config file](https://github.com/ngmoviedo/dofiles/blob/master/.config/i3/config).
 
+### Status bar: Polybar
+
+Custom modules to control brightness, sound output and display updates (from Arch repositories, AUR and Flatpak). Main bar is located at the top and tray is at the bottom, hidden by default. Can be toggled with ctrl+t.
+
 ### GTK and QT themes
 
 The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) using the *gruvmox-dark-medium-orange* template from [gruvmox-colors](https://github.com/Yethiel/gruvmox-colors). QT uses the gtk2 style. Icons are also made with *Oomox* and are a color variation of [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
@@ -70,6 +74,8 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 
 [Zathura-mupdf](https://github.com/pwmt/zathura-pdf-mupdf) is used a PDF reader. For its *vi* keybindings and *synctex* support. [neovim-remote](https://aur.archlinux.org/packages/neovim-remote/), available on the AUR, is necesary for reverse search support.
 
+Color scheme: [base16-gruvbox-dark-medium](https://github.com/HaoZeke/base16-zathura/blob/master/build_schemes/base16-gruvbox-dark-medium.config)
+
 ### Image viewer: Feh
 
 ### Browser: Firefox
@@ -95,3 +101,39 @@ Some plugins are used:
 - [Thunderbird Conversations](https://addons.thunderbird.net/en-US/thunderbird/addon/gmail-conversation-view/?src=userprofile)
 
 And the theme: [Gruvbox Dark Thunderbird](https://addons.thunderbird.net/en-US/thunderbird/addon/gruvbox-dark-thunderbird/?src=userprofile)
+
+### Compositor
+
+- [picom](https://github.com/yshui/picom)
+
+### File managers
+
+- [Ranger](https://github.com/ranger/ranger)
+- [PCManFM-qt](https://github.com/lxqt/pcmanfm-qt). Made transparent through picom.
+
+### Power management
+
+- xfce4-power-manager
+- [caffeine-ng](https://github.com/caffeine-ng/caffeine-ng). Available on the AUR.
+
+### Network management
+
+- nm-applet (part of GNOME)
+
+### Brightness control
+
+- [light](https://github.com/haikarainen/light)
+- [redshift](https://github.com/jonls/redshift)
+
+### Notifications
+
+- [dunst](https://github.com/dunst-project/dunst)
+
+### Phone sync
+
+- kdeconnect
+- [indicator-kdeconnect](https://github.com/Bajoja/indicator-kdeconnect)
+
+### Password manager
+
+- [keepassxc](https://keepassxc.org/)
