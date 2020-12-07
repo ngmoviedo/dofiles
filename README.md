@@ -4,7 +4,7 @@ Main relevant dotfiles from my current setup. I use Arch, but they will probably
 The colors have been chosen to match [Gruvbox](https://github.com/morhetz/gruvbox).
 
 
-# Sytem details
+## Sytem details
 
 ### WM: i3-gaps
 
@@ -76,7 +76,9 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 
 Color scheme: [base16-gruvbox-dark-medium](https://github.com/HaoZeke/base16-zathura/blob/master/build_schemes/base16-gruvbox-dark-medium.config)
 
-### Image viewer: Feh
+### Image viewer
+
+- [feh](https://github.com/derf/feh)
 
 ### Browser: Firefox
 
@@ -137,3 +139,4 @@ And the theme: [Gruvbox Dark Thunderbird](https://addons.thunderbird.net/en-US/t
 ### Password manager
 
 - [keepassxc](https://keepassxc.org/)
+
