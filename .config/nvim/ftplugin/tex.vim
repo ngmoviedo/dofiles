@@ -9,7 +9,7 @@ map º :VimtexTocToggle <CR>
 " Dictionary and spell checking
 let g:tex_flavor = "latex"
 setlocal spell spelllang=es
-setlocal spellfile=~/.vim/spell/dict-es.add
+setlocal spellfile=~/.config/nvim/spell/es.utf-8.add
 setlocal dictionary=/usr/share/dict/spanish
 
 "Linting
