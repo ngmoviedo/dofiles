@@ -50,7 +50,6 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 	- coc-dictionary
 	- coc-vimtex
 	- coc-sh
-	- coc-markdownlint
 	- coc-fish
 - [tex-conceal.vim](https://github.com/KeitaNakamura/tex-conceal.vim)
 - [vim-repeat](https://github.com/tpope/vim-repeat)
