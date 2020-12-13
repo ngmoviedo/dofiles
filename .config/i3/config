@@ -74,7 +74,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 #bindsym $mod+Return exec kitty
 
 # start ranger
-bindsym $mod+q exec kitty -e ranger
+bindsym $mod+q exec fish -c "kitty -e ranger"
 
 # start browser
 bindsym $mod+F1 exec firefox
