@@ -44,7 +44,6 @@ Plug 'honza/vim-snippets'
 Plug 'dense-analysis/ale'
 
 " Pair matching and autoclose tools
-"Plug 'vim-scripts/matchit.zip'
 Plug 'tpope/vim-surround'
 Plug 'tmsvg/pear-tree'
 
@@ -66,13 +65,14 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Distraction free edition
 Plug 'junegunn/goyo.vim'
+Plug 'TaDaa/vimade'
 
 " File manager (netrw) improvements
 Plug 'tpope/vim-vinegar'
+Plug 'kevinhwang91/rnvimr'
 
-" Auto resize windows
-Plug 'camspiers/lens.vim'
-Plug 'camspiers/animate.vim'
+" Floating terminal
+Plug 'voldikss/vim-floaterm'
 
 " Initialize plugin system
 call plug#end()
@@ -80,7 +80,7 @@ call plug#end()
 " Change leader to space
 let mapleader = " "
 
-" Don't highlight matching pair
+" Don't highlight matching pair in insert mode
 set noshowmatch
 
 " Change line numbers
@@ -93,8 +93,20 @@ set listchars=tab:\¦\
 set list
 
 " OverCommandLine for substitutions
-nnoremap <silent> <F2> :OverCommandLine <CR>
+nnoremap <silent> <F8> :OverCommandLine <CR>
 nnoremap <silent> S :OverCommandLine <CR> :%s/
+
+" Floating terminal
+let g:floaterm_keymap_new    = '<F9>'
+let g:floaterm_keymap_prev   = '<F10>'
+let g:floaterm_keymap_next   = '<F11>'
+let g:floaterm_keymap_toggle = '<F12>'
+
+" Ranger commands
+let g:rnvimr_action={'<C-t>': 'NvimEdit tabedit','<C-b>': 'NvimEdit split','<C-h>': 'NvimEdit vsplit','gw': 'JumpNvimCwd','yw': 'EmitRangerCwd'}
+let g:rnvimr_enable_picker=1
+nnoremap <silent> <F1> :RnvimrToggle<CR>
+tnoremap <silent> <F1> <C-\><C-n>:RnvimrToggle<CR>
 
 " Usual clipboard mappings
 inoremap <C-v> <ESC>"+pa
