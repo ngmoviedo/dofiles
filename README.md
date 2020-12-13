@@ -36,11 +36,13 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 
 [Neovim](https://github.com/neovim/neovim) as the do-it-all text editor. Its configuration is mostly oriented to *LaTeX* and *markdown* edition. The following plugins are used:
 - Plugin manager: [vim-plug](https://github.com/junegunn/vim-plug).
+- [rnvimr](https://github.com/kevinhwang91/rnvimr)
 - [vim-startify](https://github.com/mhinz/vim-startify)
 - [ale](https://github.com/dense-analysis/ale)
 - [vim-airline](https://github.com/vim-airline/vim-airline) and [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 - [pear-tree](https://github.com/tmsvg/pear-tree)
 - [vim-snippets](https://github.com/honza/vim-snippets)
+- [vimade](https://github.com/TaDaa/vimade)
 - [coc-nvim](https://github.com/neoclide/coc.nvim) with these extensions:
 	- coc-vimlsp
 	- coc-syntax
@@ -51,23 +53,27 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 	- coc-vimtex
 	- coc-sh
 	- coc-fish
+	- coc-floaterm
 - [tex-conceal.vim](https://github.com/KeitaNakamura/tex-conceal.vim)
 - [vim-repeat](https://github.com/tpope/vim-repeat)
-- [animate.vim](https://github.com/camspiers/animate.vim)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-vinegar](https://github.com/tpope/vim-vinegar)
 - [goyo.vim](https://github.com/junegunn/goyo.vim)
+- [floaterm](https://github.com/voldikss/vim-floaterm)
 - [vim-over](https://github.com/osyo-manga/vim-over)
 - [vim-easymotion](https://github.com/easymotion/vim-easymotion)
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc)
 - [vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax)
 - [vim-surround](https://github.com/tpope/vim-surround)
-- [lens.vim](https://github.com/camspiers/lens.vim)
 - [vim-fish](https://github.com/dag/vim-fish)
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
 - [vimtex](https://github.com/lervag/vimtex)
 - [vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)
 - [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition)
+
+### Pager
+
+[nvimpager](https://github.com/lucc/nvimpager)
 
 ### PDF viewer: Zathura
 
@@ -90,6 +96,7 @@ Set up to hide menu bars most of the time, show tabs on the left side and use *v
 - [TST-Middleclick](https://addons.mozilla.org/en-US/firefox/addon/tst-middleclick/)
 - [Vim Vixen](https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/)
 
+
 ### Mail reader: Thunderbird
 
 Some plugins are used:
@@ -109,8 +116,13 @@ And the theme: [Gruvbox Dark Thunderbird](https://addons.thunderbird.net/en-US/t
 
 ### File managers
 
-- [Ranger](https://github.com/ranger/ranger)
+- [Ranger](https://github.com/ranger/ranger). With this plugins:
+	- [ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons)
+	- [ranger-zjumper](https://github.com/ask1234560/ranger-zjumper)
+	- [ueberzug](https://github.com/seebye/ueberzug)
+	- [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php)
 - [PCManFM-qt](https://github.com/lxqt/pcmanfm-qt). Made transparent through picom.
+
 
 ### Power management
 
