@@ -6,10 +6,19 @@ if status is-login
 end
 
 # Alias
+# thefuck
 thefuck --alias | source
-alias vim='vim --servername vim'
-# alias vi='vim --servername vim'
-alias matlabcli='set -x MESA_LOADER_DRIVER_OVERRIDE i965; matlab -nodesktop -nosplash'
+# neovim
+alias vim='nvim'
+#alias vi='nvim' # done via symlink
+# xterm
+#alias xterm='kitty' # done via symlink (to open text files in pcmanfm-qt using
+#nvim)
+# matlab (no GUI)
+alias matlab-cli='set -x MESA_LOADER_DRIVER_OVERRIDE i965; matlab -nodesktop -nosplash'
+# wheather forecast
 alias weather='wttr Oviedo'
+# pager
+alias less='nvimpager'
 
 

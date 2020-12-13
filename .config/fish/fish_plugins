@@ -1,10 +1,9 @@
 jorgebucaran/fisher
-jorgebucaran/bax.fish
 oh-my-fish/plugin-thefuck
 ngmoviedo/theme-budspencer
 ngmoviedo/plugin-sudope
 acomagu/fish-async-prompt
 jethrokuan/z
 oh-my-fish/plugin-wttr
-FabioAntunes/base16-fish-shell
-laughedelic/pisces
+jorgebucaran/autopair.fish
+jorgebucaran/replay.fish
