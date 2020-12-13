@@ -115,7 +115,7 @@ vnoremap <C-x> "+d
 set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 
 " Distraction mode
-nmap <F3> :Goyo<cr>
+nmap <silent> <F3> :Goyo<cr>
 
 " Autocompletion and linting
 source ~/.config/nvim/scripts/autocompletion.vim
