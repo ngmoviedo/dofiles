@@ -8,3 +8,7 @@ call plug#end()
 set background=dark
 let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
+
+" Show/hide line numbers
+set number
+nmap <C-N> :set invnumber<CR>
