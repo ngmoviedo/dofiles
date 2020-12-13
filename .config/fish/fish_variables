@@ -54,7 +54,7 @@ SETUVAR async_prompt_functions:fish_prompt\x3afish_right_prompt
 SETUVAR async_prompt_inherit_variables:status\x3aSHLVL\x3aCMD_DURATION
 SETUVAR base16_fish_theme:gruvbox\x2ddark\x2dsoft
 SETUVAR base16_theme:gruvbox\x2ddark\x2dmedium
-SETUVAR budspencer_colors:000000\x1e32302f\x1ea89984\x1ed8a657\x1ee78a4e\x1ecc241d\x1eea6962\x1eea6962\x1e83a598\x1e458588\x1e689d6a\x1eb8bb26
+SETUVAR budspencer_colors:000000\x1e504945\x1ea89984\x1ed8a657\x1ee78a4e\x1ecc241d\x1eea6962\x1eea6962\x1e83a598\x1e458588\x1e689d6a\x1eb8bb26
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23458588\x5c007\x1e\x5c033\x5d12\x3b\x23e78a4e\x5c007\x1e\x5c033\x5d12\x3b\x23ea6962\x5c007\x1e\x5c033\x5d12\x3b\x2383a598\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
 SETUVAR budspencer_night:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
