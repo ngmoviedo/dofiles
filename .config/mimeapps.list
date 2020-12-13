@@ -1,7 +1,7 @@
 [Default Applications]
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
-text/x-matlab=gvim.desktop
-text/markdown=gvim.desktop
+text/x-matlab=nvim.desktop
+text/markdown=nvim.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/ftp=firefox.desktop
@@ -18,9 +18,9 @@ image/png=feh.desktop
 
 [Added Associations]
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
-text/x-matlab=gvim.desktop;
-application/x-desktop=gvim.desktop;
-text/markdown=vim.desktop;gvim.desktop;
+text/x-matlab=nvim.desktop;
+application/x-desktop=nvim.desktop;
+text/markdown=vim.desktop;nvim.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
@@ -34,4 +34,6 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 image/jpeg=libreoffice-draw.desktop;feh.desktop;
 image/png=feh.desktop;
-application/x-trash=gvim.desktop;
+application/x-trash=nvim.desktop;
+text/x-python3=nvim.desktop;
+text/plain=nvim.desktop;
