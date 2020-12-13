@@ -19,6 +19,8 @@ alias matlab-cli='set -x MESA_LOADER_DRIVER_OVERRIDE i965; matlab -nodesktop -no
 # wheather forecast
 alias weather='wttr Oviedo'
 # pager
-alias less='nvimpager'
+alias less='nvimpager -p'
+# cat alternative
+alias cat='bat --paging=never'
 
 

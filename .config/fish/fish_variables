@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export BAT_THEME:gruvbox
 SETUVAR --export EDITOR:vi
 SETUVAR --export HIGHLIGHT_STYLE:/usr/share/highlight/themes/base16/gruvbox\x2ddark\x2dmedium\x2etheme
 SETUVAR --export PAGER:nvimpager
