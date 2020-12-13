@@ -29,7 +29,7 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 - [fish-async-prompt](https://github.com/acomagu/fish-async-prompt). For extra speed.
 - [z](https://github.com/jethrokuan/z). Port of [z](https://github.com/rupa/z) for fish.
 - [wttr](https://github.com/oh-my-fish/plugin-wttr). Displays weather forecast (and moon phases) in the shell.
-- [base16-fish](https://github.com/tomyun/base16-fish). Contains several color schemes for fish, including Gruvbox.
+- [base16-fish](https://github.com/ngmoviedo/base16-fish). Contains several color schemes for fish, including Gruvbox. Forked to fix syntax issue.
 - [pisces](https://github.com/laughedelic/pisces). Autocloses parenthesis and quotes.
 
 ### Editor: Neovim
