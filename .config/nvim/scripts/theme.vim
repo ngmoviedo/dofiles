@@ -2,7 +2,7 @@
 " Color scheme
 set termguicolors
 set background=dark
-let g:gruvbox_material_background = 'soft'
+let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
 set fillchars=""
 
