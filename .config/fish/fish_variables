@@ -3,7 +3,8 @@
 SETUVAR --export BAT_THEME:gruvbox
 SETUVAR --export EDITOR:vi
 SETUVAR --export HIGHLIGHT_STYLE:/usr/share/highlight/themes/base16/gruvbox\x2ddark\x2dmedium\x2etheme
-SETUVAR --export PAGER:nvimpager
+SETUVAR --export MANPAGER:nvimpager\x1e\x2dp
+SETUVAR --export PAGER:nvimpager\x1e\x2dp
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR --export TERM:xterm\x2dkitty
 SETUVAR TERMCMD:kitty
