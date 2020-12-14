@@ -119,7 +119,6 @@ And the theme: [Gruvbox Dark Thunderbird](https://addons.thunderbird.net/en-US/t
 - [Ranger](https://github.com/ranger/ranger). With this plugins:
 	- [ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons)
 	- [ranger-zjumper](https://github.com/ask1234560/ranger-zjumper)
-	- [ueberzug](https://github.com/seebye/ueberzug)
 	- [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php)
 - [PCManFM-qt](https://github.com/lxqt/pcmanfm-qt). Made transparent through picom.
 
