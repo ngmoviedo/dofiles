@@ -74,6 +74,9 @@ Plug 'kevinhwang91/rnvimr'
 " Floating terminal
 Plug 'voldikss/vim-floaterm'
 
+" Kitty integration
+Plug 'knubie/vim-kitty-navigator'
+
 " Initialize plugin system
 call plug#end()
 
