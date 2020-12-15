@@ -1,12 +1,17 @@
 " Themes and colours
 " Color scheme
-set termguicolors
+if has('termguicolors')
+  set termguicolors
+endif
 set background=dark
 let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
+
 set fillchars=""
 
+let g:gruvbox_material_diagnostic_line_highlight = 1
 " Airline styling
+let g:airline_theme = 'gruvbox_material'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
