@@ -31,6 +31,7 @@ SETUVAR _fish_abbr_gst:git\x20status
 SETUVAR _fish_abbr_l:less
 SETUVAR _fish_abbr_lsa:ls\x20\x2da
 SETUVAR _fish_abbr_nv:nvim
+SETUVAR _fish_abbr_pas:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_prns:sudo\x20pacman\x20\x2dRns
 SETUVAR _fish_abbr_pss:pacman\x20\x2dSs
 SETUVAR _fish_abbr_psyu:sudo\x20pacman\x20\x2dSyu

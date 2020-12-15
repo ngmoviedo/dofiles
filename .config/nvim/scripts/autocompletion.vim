@@ -52,5 +52,17 @@ let g:coc_snippet_prev = '<c-k>'
 "set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 set statusline^=%{coc#status()}
 
-
+" Extensions
+let g:coc_global_extensions = [
+	\ 'coc-vimlsp',
+	\ 'coc-syntax',
+	\ 'coc-snippets',
+	\ 'coc-marketplace',
+	\ 'coc-jedi',
+	\ 'coc-floaterm',
+	\ 'coc-dictionary',
+	\ 'coc-vimtex',
+	\ 'coc-sh',
+	\ 'coc-fish'
+	\]
 
