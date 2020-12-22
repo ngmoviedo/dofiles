@@ -1,8 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export BAT_THEME:gruvbox
+SETUVAR BAT_THEME:Dracula
 SETUVAR --export EDITOR:vi
-SETUVAR --export HIGHLIGHT_STYLE:/usr/share/highlight/themes/base16/gruvbox\x2ddark\x2dmedium\x2etheme
+SETUVAR --export HIGHLIGHT_STYLE:/usr/share/highlight/themes/base16/dracula\x2etheme
 SETUVAR --export MANPAGER:nvimpager\x1e\x2dp
 SETUVAR --export PAGER:nvimpager\x1e\x2dp
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
@@ -38,26 +38,25 @@ SETUVAR _fish_abbr_psyu:sudo\x20pacman\x20\x2dSyu
 SETUVAR _fish_abbr_sd:sudo
 SETUVAR _fish_abbr_tfgm:vi\x20/home/nicolas/Documents/Wavelets/wavelets\x2etex
 SETUVAR _fish_abbr_v:vi
+SETUVAR _fish_abbr_vk:vitty
 SETUVAR _fish_abbr_yqum:yay\x20\x2dQum
 SETUVAR _fish_abbr_yss:yay\x20\x2dSs
 SETUVAR _fish_abbr_ysyu:yay\x20\x2dSyu
 SETUVAR _fisher_acomagu_2F_fish_2D_async_2D_prompt_files:/home/nicolas/\x2econfig/fish/conf\x2ed/__async_prompt\x2efish
+SETUVAR _fisher_dracula_2F_fish_files:/home/nicolas/\x2econfig/fish/conf\x2ed/dracula\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:/home/nicolas/\x2econfig/fish/functions/__z\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_add\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_clean\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_complete\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:/home/nicolas/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/autopair\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/nicolas/\x2econfig/fish/functions/fisher\x2efish\x1e/home/nicolas/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_replay_2E_fish_files:/home/nicolas/\x2econfig/fish/functions/bax\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/replay\x2efish\x1e/home/nicolas/\x2econfig/fish/completions/replay\x2efish
-SETUVAR _fisher_ngmoviedo_2F_base16_2D_fish_files:/home/nicolas/\x2econfig/fish/functions/base16\x2d3024\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dapathy\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dashes\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dcave\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dcave\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2ddune\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2ddune\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2destuary\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2destuary\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dforest\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dforest\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dheath\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dheath\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dlakeside\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dlakeside\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dplateau\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dplateau\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dsavanna\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dsavanna\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dseaside\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dseaside\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dsulphurpool\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datelier\x2dsulphurpool\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2datlas\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbespin\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dbathory\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dburzum\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2ddark\x2dfuneral\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dgorgoroth\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dimmortal\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dkhold\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dmarduk\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dmayhem\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dnile\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2dvenom\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dblack\x2dmetal\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbrewer\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbright\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbrogrammer\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbrushtrees\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dbrushtrees\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dchalk\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dcircus\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dclassic\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dclassic\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dcodeschool\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dcupcake\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dcupertino\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2ddarktooth\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2ddefault\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2ddefault\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2ddracula\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2deighties\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dembers\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dflat\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dframer\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dfruit\x2dsoda\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgithub\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgoogle\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgoogle\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgrayscale\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgrayscale\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgreenscreen\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2ddark\x2dhard\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2ddark\x2dmedium\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2ddark\x2dpale\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2ddark\x2dsoft\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2dlight\x2dhard\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2dlight\x2dmedium\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dgruvbox\x2dlight\x2dsoft\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dharmonic\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dharmonic\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dheetch\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dheetch\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhelios\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhopscotch\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhorizon\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhorizon\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhorizon\x2dterminal\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dhorizon\x2dterminal\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dia\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dia\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dicy\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dirblack\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2disotope\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmacintosh\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmarrakesh\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmateria\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmaterial\x2ddarker\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmaterial\x2dlighter\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmaterial\x2dpalenight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmaterial\x2dvivid\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmaterial\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmellow\x2dpurple\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmexico\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmocha\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dmonokai\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dnord\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2docean\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2doceanicnext\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2done\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2donedark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2doutrun\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dpapercolor\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dpapercolor\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dparaiso\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dphd\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dpico\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dpop\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dporple\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2drailscasts\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2drebecca\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dseti\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dshapeshifter\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsnazzy\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsolarflare\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsolarized\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsolarized\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dspacemacs\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsummerfruit\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsummerfruit\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dsynth\x2dmidnight\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dtomorrow\x2dnight\x2deighties\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dtomorrow\x2dnight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dtomorrow\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dtube\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dtwilight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dunikitty\x2ddark\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dunikitty\x2dlight\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dwoodland\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dxcode\x2ddusk\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/base16\x2dzenburn\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/base16\x2efish
 SETUVAR _fisher_ngmoviedo_2F_plugin_2D_sudope_files:/home/nicolas/\x2econfig/fish/functions/sudope\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/sudope\x2efish
 SETUVAR _fisher_ngmoviedo_2F_theme_2D_budspencer_files:/home/nicolas/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_right_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/budspencer\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_thefuck_files:/home/nicolas/\x2econfig/fish/functions/__tf_updt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fuck\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/init\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/thefuck\x2dcommand\x2dline\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_wttr_files:/home/nicolas/\x2econfig/fish/functions/moon\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/wttr\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dthefuck\x1engmoviedo/theme\x2dbudspencer\x1engmoviedo/plugin\x2dsudope\x1eacomagu/fish\x2dasync\x2dprompt\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1engmoviedo/base16\x2dfish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dthefuck\x1engmoviedo/theme\x2dbudspencer\x1engmoviedo/plugin\x2dsudope\x1eacomagu/fish\x2dasync\x2dprompt\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1edracula/fish
 SETUVAR async_prompt_functions:fish_prompt\x3afish_right_prompt
 SETUVAR async_prompt_inherit_variables:status\x3aSHLVL\x3aCMD_DURATION
-SETUVAR base16_fish_theme:gruvbox\x2ddark\x2dsoft
-SETUVAR base16_theme:gruvbox\x2ddark\x2dmedium
-SETUVAR budspencer_colors:000000\x1e504945\x1ea89984\x1ed8a657\x1ee78a4e\x1ecc241d\x1eea6962\x1eea6962\x1e83a598\x1e458588\x1e689d6a\x1eb8bb26
-SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23458588\x5c007\x1e\x5c033\x5d12\x3b\x23e78a4e\x5c007\x1e\x5c033\x5d12\x3b\x23ea6962\x5c007\x1e\x5c033\x5d12\x3b\x2383a598\x5c007
+SETUVAR budspencer_colors:000000\x1e44475a\x1e6272a4\x1efdf6e3\x1e50fa7b\x1effb86c\x1eff5555\x1eff5555\x1e6272a4\x1ebd93f9\x1effb86c\x1ebd93f9
+SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23bd93f9\x5c007\x1e\x5c033\x5d12\x3b\x2350fa7b\x5c007\x1e\x5c033\x5d12\x3b\x23ff5555\x5c007\x1e\x5c033\x5d12\x3b\x236272a4\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
 SETUVAR budspencer_night:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
 SETUVAR budspencer_nobell:\x1d
@@ -65,71 +64,9 @@ SETUVAR budspencer_nocmdhist:c\x1ed\x1ell\x1els\x1em\x1es
 SETUVAR budspencer_pwdstyle:short\x1elong\x1enone
 SETUVAR budspencer_sessions_active:\x1d
 SETUVAR budspencer_sessions_active_pid:\x1d
-SETUVAR fish_color_autosuggestion:504945
-SETUVAR fish_color_cancel:\x2dr
-SETUVAR fish_color_command:green
-SETUVAR fish_color_comment:504945
-SETUVAR fish_color_cwd:green
-SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:brblack
-SETUVAR fish_color_error:red
-SETUVAR fish_color_escape:yellow
-SETUVAR fish_color_history_current:\x2d\x2dbold
-SETUVAR fish_color_host:normal
-SETUVAR fish_color_host_remote:yellow
-SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
-SETUVAR fish_color_normal:normal
-SETUVAR fish_color_operator:blue
-SETUVAR fish_color_param:bdae93
-SETUVAR fish_color_quote:yellow
-SETUVAR fish_color_redirection:cyan
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3d504945
-SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3d504945
-SETUVAR fish_color_status:red
-SETUVAR fish_color_user:brgreen
-SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell
 SETUVAR fish_key_bindings:fish_vi_key_bindings
-SETUVAR fish_pager_color_completion:normal
-SETUVAR fish_pager_color_description:yellow\x1e\x2d\x2ddim
-SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold
-SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR pisces_only_insert_at_eol:1
-SETUVAR pure_begin_prompt_with_current_directory:true
-SETUVAR pure_color_command_duration:pure_color_warning
-SETUVAR pure_color_current_directory:pure_color_primary
-SETUVAR pure_color_danger:red
-SETUVAR pure_color_dark:black
-SETUVAR pure_color_git_branch:pure_color_mute
-SETUVAR pure_color_git_dirty:pure_color_mute
-SETUVAR pure_color_git_unpulled_commits:pure_color_info
-SETUVAR pure_color_git_unpushed_commits:pure_color_info
-SETUVAR pure_color_info:cyan
-SETUVAR pure_color_jobs:pure_color_normal
-SETUVAR pure_color_light:white
-SETUVAR pure_color_mute:brblack
-SETUVAR pure_color_normal:normal
-SETUVAR pure_color_primary:blue
-SETUVAR pure_color_prompt_on_error:pure_color_danger
-SETUVAR pure_color_prompt_on_success:pure_color_success
-SETUVAR pure_color_ssh_hostname:pure_color_mute
-SETUVAR pure_color_ssh_separator:pure_color_mute
-SETUVAR pure_color_ssh_user_normal:pure_color_mute
-SETUVAR pure_color_ssh_user_root:pure_color_light
-SETUVAR pure_color_success:magenta
-SETUVAR pure_color_virtualenv:pure_color_mute
-SETUVAR pure_color_warning:yellow
-SETUVAR pure_enable_git:true
-SETUVAR pure_reverse_prompt_symbol_in_vimode:true
-SETUVAR pure_separate_prompt_on_error:false
-SETUVAR pure_show_jobs:false
-SETUVAR pure_symbol_git_dirty:\x2a
-SETUVAR pure_symbol_git_unpulled_commits:\u21e3
-SETUVAR pure_symbol_git_unpushed_commits:\u21e1
-SETUVAR pure_symbol_prompt:\u276f
-SETUVAR pure_symbol_reverse_prompt:\u276e
-SETUVAR pure_symbol_title_bar_separator:\u2014
-SETUVAR pure_threshold_command_duration:5
 SETUVAR readme_file:/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd
 SETUVAR readme_file_fisher:/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd
 SETUVAR readme_file_omf:/themes/budspencer/functions/README_budspencer\x2emd
+SETUVAR theme:gruvbox\x2dmaterial\x2ddark\x2dmedium

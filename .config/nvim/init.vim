@@ -59,7 +59,8 @@ Plug 'osyo-manga/vim-over'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 " Color schemes and status bar
-Plug 'sainnhe/gruvbox-material'
+"Plug 'sainnhe/gruvbox-material'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -67,7 +68,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/goyo.vim'
 Plug 'TaDaa/vimade'
 
-" File manager (netrw) improvements
+" File manager (netrw and ranger) improvements
 Plug 'tpope/vim-vinegar'
 Plug 'kevinhwang91/rnvimr'
 
@@ -76,6 +77,9 @@ Plug 'voldikss/vim-floaterm'
 
 " Kitty integration
 Plug 'knubie/vim-kitty-navigator'
+
+" Colorizer
+Plug 'norcalli/nvim-colorizer.lua'
 
 " Initialize plugin system
 call plug#end()
@@ -97,7 +101,7 @@ set list
 
 " OverCommandLine for substitutions
 nnoremap <silent> <F8> :OverCommandLine <CR>
-nnoremap <silent> S :OverCommandLine <CR> :%s/
+nnoremap <silent> S :OverCommandLine <CR> :%s//g<left><left>
 
 " Floating terminal
 let g:floaterm_keymap_new    = '<F9>'
@@ -105,7 +109,7 @@ let g:floaterm_keymap_prev   = '<F10>'
 let g:floaterm_keymap_next   = '<F11>'
 let g:floaterm_keymap_toggle = '<F12>'
 
-let g:floaterm_winblend = 30
+"let g:floaterm_winblend = 30
 
 " Ranger commands
 let g:rnvimr_action={'<C-t>': 'NvimEdit tabedit','<C-b>': 'NvimEdit split','<C-h>': 'NvimEdit vsplit','gw': 'JumpNvimCwd','yw': 'EmitRangerCwd'}
@@ -134,3 +138,6 @@ source ~/.config/nvim/scripts/netrw.vim
 " Easymotion
 source ~/.config/nvim/scripts/easymotion.vim
 
+" For neovim-kitty-navigator
+set title
+let &titlestring='%t - nvim'

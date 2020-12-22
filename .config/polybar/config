@@ -16,14 +16,38 @@
 ;
 ;==========================================================
 
+
 [colors]
-background = #282828
-background-alt = #444
-foreground = #ebdbb2
-foreground-alt = #555
-primary = #fe8019
-secondary = #cc241d
-alert = #bd2c40
+; Gruvbox Material Dark
+; background = #282828
+; background-alt = #444
+; foreground = #d4be98 
+; foreground-alt = #555
+; primary = #e78a4e 
+; secondary = #7daea3 
+; alert = #ea6962 
+
+; red = #ea6962
+; orange = #e78a4e
+; green = #a9b665
+; blue = #7daea3
+; purple = #d3869b
+; aqua = #89b482
+; darkgray = #282828
+
+; Dracula
+background = #282a36 
+background-alt = #44475a 
+foreground =  #f8f8f2 
+foreground-alt = #ffffff 
+primary =  #50fa7b
+secondary = #bd93f9
+alert = #ff5555 
+red = #ff5555
+yellow = #f1fa8c
+magenta = #ff79c6
+cyan = #8be9fd
+
 
 [bar/mybar]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -110,7 +134,7 @@ tray-position = right
 tray-maxsize = 16
 tray-padding = 8
 tray-transparent = false
-tray-background = #458588
+tray-background = ${colors.background}
 
 
 
@@ -128,15 +152,15 @@ blacklist-0 = num lock
 
 format-prefix = "  "
 format-prefix-foreground = ${colors.foreground}
-format-prefix-underline = ${colors.secondary}
+format-prefix-underline = ${colors.magenta}
 
 label-layout = %layout%
-label-layout-underline = ${colors.secondary}
+label-layout-underline = ${colors.magenta}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
+label-indicator-background = ${colors.magenta}
+label-indicator-underline = ${colors.magenta}
 
 [module/filesystem]
 type = internal/fs
@@ -204,7 +228,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
-format-underline = #458588
+format-underline = ${colors.secondary}
 label = %percentage:2%%
 
 [module/memory]
@@ -212,7 +236,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
-format-underline = #fabd2f
+format-underline = ${colors.yellow} 
 label = %percentage_used%%
 
 [module/wlan]
@@ -265,7 +289,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground}
-format-underline = #458588
+format-underline = ${colors.secondary}
 
 label = %date% %time%
 
@@ -283,13 +307,13 @@ label-muted-foreground = #666
 format-muted-foreground = ${colors.foreground-alt}
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-0 = #89b482 
+bar-volume-foreground-1 = #55aa55 
+bar-volume-foreground-2 = #55aa55 
+bar-volume-foreground-3 = #55aa55 
+bar-volume-foreground-4 = #55aa55 
+bar-volume-foreground-5 = #e78a4e 
+bar-volume-foreground-6 = #ea6962 
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
@@ -356,9 +380,9 @@ expand-right = true
 format-spacing = 1
 
 label-open = "  "
-label-open-foreground = ${colors.secondary}
+label-open-foreground = ${colors.red}
 label-close =   cancel
-label-close-foreground = ${colors.secondary}
+label-close-foreground = ${colors.red}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 label-margin = 3
@@ -388,7 +412,7 @@ exec = ~/.config/polybar/scripts/system-usb-udev.sh
 tail = true
 click-left = ~/.config/polybar/scripts/system-usb-udev.sh --mount &
 click-right = ~/.config/polybar/scripts/system-usb-udev.sh --unmount &
-format-underline = #458588
+format-underline = ${colors.secondary}
 
 [module/updates-arch-combined]
 type = custom/ipc
@@ -396,7 +420,7 @@ hook-0 = ~/.config/polybar/scripts/updates-arch-combined.sh
 initial = 1
 interval = 600
 click-left = ~/.config/polybar/scripts/updates_hook.sh
-format-underline = #458588
+format-underline = ${colors.secondary}
 
 [module/caffeine]
 type = custom/menu
@@ -458,13 +482,13 @@ bar-fill = ─
 bar-empty = ─
 
 
-format-underline = ${colors.secondary}
+format-underline = ${colors.red}
 
 [module/redshift]
 type = custom/script
 label = " "
 click-left = ~/.config/polybar/scripts/redshift.sh
-format-underline = ${colors.secondary}
+format-underline = ${colors.red}
 
 [settings]
 screenchange-reload = true

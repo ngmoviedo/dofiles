@@ -96,7 +96,8 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -b'
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -b -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%''
+
 
 # change focus
 bindsym $mod+h focus left
@@ -234,14 +235,14 @@ bindsym $mod+r mode "resize"
 default_border pixel 2
 #for_window [floating] border normal
 
-# class                 border  bground text    indicator child_border
-client.focused          #fe8019 #fe8019 #000000 #2E9EF4   #fe8019
-client.focused_inactive #d65d0e #d65d0e #000000 #484E50   #d65d0e
-client.unfocused        #333333 #222222 #888888 #292D2E   #222222
-client.urgent           #2F343A #900000 #FFFFFF #900000   #cc241d
-client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+# # class                 border  bground text    indicator child_border
+# client.focused          #fe8019 #fe8019 #000000 #2E9EF4   #fe8019
+# client.focused_inactive #d65d0e #d65d0e #000000 #484E50   #d65d0e
+# client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+# client.urgent           #2F343A #900000 #FFFFFF #900000   #cc241d
+# client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
-client.background       #FFFFFF
+# client.background       #FFFFFF
 
 # Smart gaps and borders
 smart_gaps on
@@ -288,10 +289,10 @@ for_window [class="Subsync"] floating enable border normal
 #################
 # Background and compositor
 #################
-exec --no-startup-id feh --bg-fill --no-fehbg ~/.config/wallpapers/fondo.JPG
+exec --no-startup-id feh --bg-fill --no-fehbg ~/.config/wallpapers/dracula.png
 exec_always --no-startup-id picom --config ~/.config/picom.conf
 
-exec --no-startup-id i3lock -i ~/.config/wallpapers/fondo_lock.png
+exec --no-startup-id  i3lock --image ~/.config/wallpapers/dracula_lock.png
 
 
 ###################
@@ -322,7 +323,7 @@ bindsym $mod+t exec --no-startup-id $HOME/.config/polybar/scripts/toggle_tray.sh
 ####################
 # Power management
 ####################
-set $Locker i3lock -i ~/Pictures/fondo3.png && sleep 1
+set $Locker i3lock --image ~/.config/wallpapers/dracula_lock.png && sleep 1
 
 set $mode_system System (l) Lock, (e) Logout, (s) Suspend, (h) Hibernate, (r) Reboot, (w) Boot Windows, (Shift+s) Shutdown
 #set $mode_system (l)  , (e) 﫼 , (s) ⏾ , (h) 鈴 , (r) 勒 , (w)  , (Shift+s)    
@@ -341,3 +342,32 @@ mode "$mode_system" {
 }
 
 bindsym $mod+Delete mode "$mode_system"
+
+#####################
+# Dracula colorscheme
+#####################
+
+# class                 border  bground text    indicator child_border
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# bar {
+#   colors {
+#     background #282A36
+#     statusline #F8F8F2
+#     separator  #44475A
+
+#     focused_workspace  #44475A #44475A #F8F8F2
+#     active_workspace   #282A36 #44475A #F8F8F2
+#     inactive_workspace #282A36 #282A36 #BFBFBF
+#     urgent_workspace   #FF5555 #FF5555 #F8F8F2
+#     binding_mode       #FF5555 #FF5555 #F8F8F2
+#   }
+# }
+
+#bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"

@@ -2,8 +2,8 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/nicolas/.gtkrc-2.0.mine"
-gtk-theme-name="oomox-gruvmox-dark-medium-orange"
-gtk-icon-theme-name="oomox-gruvmox-dark-medium-orange"
+gtk-theme-name="Ant-Dracula"
+gtk-icon-theme-name="Dracula"
 gtk-font-name="DejaVu Sans 11"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0

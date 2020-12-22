@@ -1,50 +1,5 @@
 @-moz-document url("about:newtab"), url("about:home") {
    
-   /*Background colour*/
-   body { background-color: #32302f !important;}
-
    /*Search bar position*/
    .search-wrapper { margin-top: 250px !important; }
-
-   /* Search Bar settings */
-   #newtab-search-text {
-
-   /* Search Bar color */
-   background-color: #3c3836 !important;
-
-   /* Text color */
-   color: #ebdbb2 !important;
-   }
-
-   /* Border color */
-   .search-wrapper:active input, .search-wrapper input:focus {
-	border-color: #fe8019  !important;
-	box-shadow: 0 0 0 1px black !important;
-  }
-  .contentSearchHeader {
-        background-color: #3c3836 !important;
-        color: #ebdbb2 !important;
-  }
-
-  .contentSearchHeader:hover {
-        background-color: #fe8019!important;
-        color: #ebdbb2 !important;
-        border-color: #fe8019 !important;
-  }
-
-
-
-  .contentSearchSuggestionEntry {
-        color: #ebdbb2 !important;
-        background-color: #3c3836 !important;
-  }
-
-  .contentSearchSuggestionEntry:hover {
-      background-color: #665c54 !important;
-  }
-
-  .contentSearchSuggestionsContainer {
-      background-color: #665c54 !important;
-  }
-
 }
