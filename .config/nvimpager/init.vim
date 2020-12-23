@@ -1,6 +1,5 @@
 set runtimepath+=~/.local/share/nvim/site
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'sainnhe/gruvbox-material'
 Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 " Themes and colours
