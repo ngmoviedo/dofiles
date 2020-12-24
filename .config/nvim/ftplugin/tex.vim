@@ -13,6 +13,7 @@ setlocal spellfile=~/.config/nvim/spell/es.utf-8.add
 setlocal dictionary=/usr/share/dict/spanish
 
 "Linting
+let b:ale_linters = ['lacheck']
 let b:ale_fixers = ['latexindent', 'remove_trailing_lines', 'trim_whitespace']
 
 " Concealment
