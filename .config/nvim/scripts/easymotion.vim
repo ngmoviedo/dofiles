@@ -1,23 +1,20 @@
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
-" Space as leader
-map <Space> <Plug>(easymotion-prefix)
-
 " Jump to anywhere you want with minimal keystrokes, with just one key binding.
 " `s{char}{char}{label}`
 nmap s <Plug>(easymotion-overwin-f2)
 
 " Directions
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
-map <Leader>l <Plug>(easymotion-lineforward)
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
-map <Leader>h <Plug>(easymotion-linebackward)
+map <Space>l <Plug>(easymotion-lineforward)
+map <Space>j <Plug>(easymotion-j)
+map <Space>k <Plug>(easymotion-k)
+map <Space>h <Plug>(easymotion-linebackward)
 
 
 " Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
-nmap <Leader>w <Plug>(easymotion-overwin-w)
+map  <Space>w <Plug>(easymotion-bd-w)
+nmap <Space>w <Plug>(easymotion-overwin-w)
 
 " Smartcase
 let g:EasyMotion_smartcase = 1

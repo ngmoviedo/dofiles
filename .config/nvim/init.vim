@@ -58,12 +58,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'osyo-manga/vim-over'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
-" Color schemes and status bar
-"Plug 'sainnhe/gruvbox-material'
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
 " Distraction free edition
 Plug 'junegunn/goyo.vim'
 Plug 'TaDaa/vimade'
@@ -71,21 +65,28 @@ Plug 'TaDaa/vimade'
 " File manager (netrw and ranger) improvements
 Plug 'tpope/vim-vinegar'
 Plug 'kevinhwang91/rnvimr'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+" Color schemes and status bar
+"Plug 'sainnhe/gruvbox-material'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
 
 " Floating terminal
 Plug 'voldikss/vim-floaterm'
 
-" Kitty integration
-Plug 'knubie/vim-kitty-navigator'
+" Git integration
+Plug 'tpope/vim-fugitive'
 
 " Colorizer
 Plug 'norcalli/nvim-colorizer.lua'
 
 " Initialize plugin system
 call plug#end()
-
-" Change leader to space
-let mapleader = " "
 
 " Don't highlight matching pair in insert mode
 set noshowmatch
@@ -101,7 +102,7 @@ set list
 
 " OverCommandLine for substitutions
 nnoremap <silent> <F8> :OverCommandLine <CR>
-nnoremap <silent> S :OverCommandLine <CR> :%s//g<left><left>
+nnoremap <silent> S :OverCommandLine <CR> :%s///g<left><left><left>
 
 " Floating terminal
 let g:floaterm_keymap_new    = '<F9>'
@@ -109,21 +110,13 @@ let g:floaterm_keymap_prev   = '<F10>'
 let g:floaterm_keymap_next   = '<F11>'
 let g:floaterm_keymap_toggle = '<F12>'
 
-"let g:floaterm_winblend = 30
-
-" Ranger commands
-let g:rnvimr_action={'<C-t>': 'NvimEdit tabedit','<C-b>': 'NvimEdit split','<C-h>': 'NvimEdit vsplit','gw': 'JumpNvimCwd','yw': 'EmitRangerCwd'}
-let g:rnvimr_enable_picker=1
-nnoremap <silent> <F1> :RnvimrToggle<CR>
-tnoremap <silent> <F1> <C-\><C-n>:RnvimrToggle<CR>
-
 " Usual clipboard mappings
 inoremap <C-v> <ESC>"+pa
 vnoremap <C-c> "+y
 vnoremap <C-x> "+d
 set clipboard=unnamedplus " Allows yanking and pasting to and from clipboard
 
-" Distraction mode
+" Distraction free mode
 nmap <silent> <F3> :Goyo<cr>
 
 " Autocompletion and linting
@@ -133,11 +126,7 @@ source ~/.config/nvim/scripts/autocompletion.vim
 source ~/.config/nvim/scripts/theme.vim
 
 " File explorer (netrw)
-source ~/.config/nvim/scripts/netrw.vim
+source ~/.config/nvim/scripts/filemanager.vim
 
 " Easymotion
 source ~/.config/nvim/scripts/easymotion.vim
-
-" For neovim-kitty-navigator
-set title
-let &titlestring='%t - nvim'

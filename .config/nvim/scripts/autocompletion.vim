@@ -63,6 +63,7 @@ let g:coc_global_extensions = [
 	\ 'coc-dictionary',
 	\ 'coc-vimtex',
 	\ 'coc-sh',
-	\ 'coc-fish'
+	\ 'coc-fish',
+	\ 'coc-git'
 	\]
 

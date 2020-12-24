@@ -8,9 +8,8 @@ endif
 " colorscheme gruvbox-material
 colorscheme dracula
 
-set fillchars=""
+"set fillchars=""
 
-let g:gruvbox_material_diagnostic_line_highlight = 1
 " Airline styling
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
