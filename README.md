@@ -1,10 +1,10 @@
 # Yet another dotfiles repository by an obsesive Arch user
 Main relevant dotfiles from my current setup. I use Arch, but they will probably work in most GNU/Linux distributions.
 
-The colors have been chosen to match [Gruvbox](https://github.com/morhetz/gruvbox).
+The colors have been chosen to match [Dracula](https://github.com/morhetz/gruvbox).
 
 
-## Sytem details
+## System details
 
 ### WM: i3-gaps
 
@@ -16,21 +16,21 @@ Custom modules to control brightness, sound output and display updates (from Arc
 
 ### GTK and QT themes
 
-The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) using the *gruvmox-dark-medium-orange* template from [gruvmox-colors](https://github.com/Yethiel/gruvmox-colors). QT uses the gtk2 style. Icons are also made with *Oomox* and are a color variation of [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+GTK theme and icons are [the official ones from the *Dracula* project](https://draculatheme.com/gtk). Qt engine is [Kvantum](https://draculatheme.com/gtk) and the theme: [Ant-Dracula KDE](https://store.kde.org/p/1370681/)
 
 ### Shell: Fish
 
 [Fish](https://github.com/fish-shell/fish-shell) is used as main shell. Some plugins were added (using the [fisher](https://github.com/jorgebucaran/fisher) plugin manager):
 
-- [bax](https://github.com/jorgebucaran/bax.fish) for easily executing bash commands keeping the environment changes in fish.
+- [replay](https://github.com/jorgebucaran/replay.fish) for easily executing bash commands keeping the environment changes in fish.
 - [thefuck](https://github.com/oh-my-fish/plugin-thefuck) for integration with [The Fuck](https://github.com/nvbn/thefuck).
 - [budspencer](https://github.com/ngmoviedo/theme-budspencer). Amazing theme which includes many useful functions and git integration. It's not fully compatible with fisher, so I've forked it and made some modifications.
 - [sudope](https://github.com/ngmoviedo/plugin-sudope). For adding *sudo* when you forget. Has the same problem of budspencer, so I've forked it.
 - [fish-async-prompt](https://github.com/acomagu/fish-async-prompt). For extra speed.
 - [z](https://github.com/jethrokuan/z). Port of [z](https://github.com/rupa/z) for fish.
 - [wttr](https://github.com/oh-my-fish/plugin-wttr). Displays weather forecast (and moon phases) in the shell.
-- [base16-fish](https://github.com/ngmoviedo/base16-fish). Contains several color schemes for fish, including Gruvbox. Forked to fix syntax issue.
-- [pisces](https://github.com/laughedelic/pisces). Autocloses parenthesis and quotes.
+- [autopair](https://github.com/jorgebucaran/autopair.fish). Autocloses parenthesis and quotes.
+- [dracula](https://github.com/dracula/fish). *Dracula* theme.
 
 ### Editor: Neovim
 
@@ -54,8 +54,11 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 	- coc-sh
 	- coc-fish
 	- coc-floaterm
+	- coc-json
+	- coc-explorer
 - [tex-conceal.vim](https://github.com/KeitaNakamura/tex-conceal.vim)
 - [vim-repeat](https://github.com/tpope/vim-repeat)
+- [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-vinegar](https://github.com/tpope/vim-vinegar)
 - [goyo.vim](https://github.com/junegunn/goyo.vim)
@@ -65,6 +68,7 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc)
 - [vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax)
 - [vim-surround](https://github.com/tpope/vim-surround)
+- [dracula](https://draculatheme.com/vim)
 - [vim-fish](https://github.com/dag/vim-fish)
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
 - [vimtex](https://github.com/lervag/vimtex)
@@ -79,7 +83,7 @@ The GTK theme was made with [Oomox](https://github.com/themix-project/oomox) usi
 
 [Zathura-mupdf](https://github.com/pwmt/zathura-pdf-mupdf) is used a PDF reader. For its *vi* keybindings and *synctex* support. [neovim-remote](https://aur.archlinux.org/packages/neovim-remote/), available on the AUR, is necesary for reverse search support.
 
-Color scheme: [base16-gruvbox-dark-medium](https://github.com/HaoZeke/base16-zathura/blob/master/build_schemes/base16-gruvbox-dark-medium.config)
+Color scheme: [dracula](https://draculatheme.com/zathura)
 
 ### Image viewer
 
@@ -89,12 +93,12 @@ Color scheme: [base16-gruvbox-dark-medium](https://github.com/HaoZeke/base16-zat
 
 Set up to hide menu bars most of the time, show tabs on the left side and use *vi* keybindings. The relevant plugins used for this config are:
 
-- [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/)
 - [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 - [Tab Count in Window Title](https://addons.mozilla.org/es/firefox/addon/tab-count-in-window-title/)
 - [Tree Style Tab Mouse Wheel](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab-mouse-wheel/)
 - [TST-Middleclick](https://addons.mozilla.org/en-US/firefox/addon/tst-middleclick/)
 - [Vim Vixen](https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/)
+- Theme: [dracula](https://draculatheme.com/firefox)
 
 
 ### Mail reader: Thunderbird
@@ -108,7 +112,7 @@ Some plugins are used:
 - [tbkeys-lite](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/?src=search)
 - [Thunderbird Conversations](https://addons.thunderbird.net/en-US/thunderbird/addon/gmail-conversation-view/?src=userprofile)
 
-And the theme: [Gruvbox Dark Thunderbird](https://addons.thunderbird.net/en-US/thunderbird/addon/gruvbox-dark-thunderbird/?src=userprofile)
+- Theme: [Dracula](https://addons.thunderbird.net/en-US/thunderbird/addon/dracula-theme-for-thunderbird/?src=userprofile)
 
 ### Compositor
 
