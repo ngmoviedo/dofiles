@@ -22,4 +22,5 @@ source ~/.config/nvim/plugin-config/floaterm.vim
 source ~/.config/nvim/plugin-config/easymotion.vim
 source ~/.config/nvim/plugin-config/airline.vim
 source ~/.config/nvim/plugin-config/goyo.vim
-source ~/.config/nvim/plugin-config/colorizer.vim
+" lua plugins
+lua require('plugin-config.colorizer')
