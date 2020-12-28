@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
 	\ 'coc-sh',
 	\ 'coc-fish',
 	\ 'coc-json',
-	\ 'coc-explorer'
+	\ 'coc-explorer',
+	\ 'coc-lua'
 	\]
 

@@ -67,5 +67,8 @@ Plug 'tpope/vim-fugitive'
 " Colorizer
 Plug 'norcalli/nvim-colorizer.lua'
 
+" Scrollbar
+Plug 'Xuyuanp/scrollbar.nvim'
+
 " Initialize plugin system
 call plug#end()
