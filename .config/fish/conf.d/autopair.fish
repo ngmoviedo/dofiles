@@ -1,3 +1,5 @@
+set --query fish_key_bindings[1] || exit
+
 set --global autopair_left "(" "[" "{" '"' "'"
 set --global autopair_right ")" "]" "}" '"' "'"
 set --global autopair_pairs "()" "[]" "{}" '""' "''"
@@ -24,5 +26,5 @@ function _autopair_uninstall --on-event autopair_uninstall
         | string match --regex -- .\*_autopair \
         | string replace -- _autopair --erase \
         | source
-    set --erase autopair_pairs
+    set --names | string replace --filter --regex -- "^(autopair)" "set --erase \$1" | source
 end
