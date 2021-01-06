@@ -5,11 +5,14 @@
 .bash_history
 .bash_logout
 .cache/
+.cargo/
 .config/QtProject.conf
+.config/VSCodium/
 .config/altus/
 .config/appimagelauncher.cfg
 .config/autostart/
 .config/borg/
+.config/calibre/
 .config/cef_user_data/
 .config/chromium/
 .config/coc/
@@ -69,8 +72,10 @@
 .thunderbird/
 .tor-browser/
 .var/
+.vscode-oss/
 .whatsdesk/
 Applications/
+Calibre Library/
 Documents
 Downloads
 Games
