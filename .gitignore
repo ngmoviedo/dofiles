@@ -62,6 +62,7 @@
 !.mozilla/firefox/sd1hctw3.default-release/chrome
 
 .npm/
+*.nvimlog
 .pki/
 .python_history
 .ssh/

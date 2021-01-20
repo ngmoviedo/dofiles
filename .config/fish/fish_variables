@@ -27,14 +27,17 @@ SETUVAR _fish_abbr_ga_2E_:git\x20add\x20\x2e
 SETUVAR _fish_abbr_gau:git\x20add\x20\x2du
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
 SETUVAR _fish_abbr_gp:git\x20push
+SETUVAR _fish_abbr_gpom:git\x20push\x20origin\x20master
 SETUVAR _fish_abbr_gst:git\x20status
 SETUVAR _fish_abbr_l:less
 SETUVAR _fish_abbr_lsa:ls\x20\x2da
 SETUVAR _fish_abbr_nv:nvim
 SETUVAR _fish_abbr_pas:sudo\x20pacman\x20\x2dS
+SETUVAR _fish_abbr_poff:poweroff
 SETUVAR _fish_abbr_prns:sudo\x20pacman\x20\x2dRns
 SETUVAR _fish_abbr_pss:pacman\x20\x2dSs
 SETUVAR _fish_abbr_psyu:sudo\x20pacman\x20\x2dSyu
+SETUVAR _fish_abbr_rwin:reboot\x2dwindows
 SETUVAR _fish_abbr_sd:sudo
 SETUVAR _fish_abbr_tfgm:vi\x20/home/nicolas/Documents/Wavelets/wavelets\x2etex
 SETUVAR _fish_abbr_v:vi
@@ -42,7 +45,6 @@ SETUVAR _fish_abbr_vk:vitty
 SETUVAR _fish_abbr_yqum:yay\x20\x2dQum
 SETUVAR _fish_abbr_yss:yay\x20\x2dSs
 SETUVAR _fish_abbr_ysyu:yay\x20\x2dSyu
-SETUVAR _fisher_acomagu_2F_fish_2D_async_2D_prompt_files:/home/nicolas/\x2econfig/fish/conf\x2ed/__async_prompt\x2efish
 SETUVAR _fisher_dracula_2F_fish_files:/home/nicolas/\x2econfig/fish/conf\x2ed/dracula\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:/home/nicolas/\x2econfig/fish/functions/__z\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_add\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_clean\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/__z_complete\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:/home/nicolas/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/autopair\x2efish
@@ -52,9 +54,7 @@ SETUVAR _fisher_ngmoviedo_2F_plugin_2D_sudope_files:/home/nicolas/\x2econfig/fis
 SETUVAR _fisher_ngmoviedo_2F_theme_2D_budspencer_files:/home/nicolas/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_right_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/budspencer\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_thefuck_files:/home/nicolas/\x2econfig/fish/functions/__tf_updt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fuck\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/init\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/thefuck\x2dcommand\x2dline\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_wttr_files:/home/nicolas/\x2econfig/fish/functions/moon\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/wttr\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dthefuck\x1engmoviedo/theme\x2dbudspencer\x1engmoviedo/plugin\x2dsudope\x1eacomagu/fish\x2dasync\x2dprompt\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1edracula/fish
-SETUVAR async_prompt_functions:fish_prompt\x3afish_right_prompt
-SETUVAR async_prompt_inherit_variables:status\x3aSHLVL\x3aCMD_DURATION
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dthefuck\x1engmoviedo/plugin\x2dsudope\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1edracula/fish\x1engmoviedo/theme\x2dbudspencer
 SETUVAR budspencer_colors:000000\x1e44475a\x1e6272a4\x1efdf6e3\x1e50fa7b\x1effb86c\x1eff5555\x1eff5555\x1e6272a4\x1ebd93f9\x1effb86c\x1ebd93f9
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23bd93f9\x5c007\x1e\x5c033\x5d12\x3b\x2350fa7b\x5c007\x1e\x5c033\x5d12\x3b\x23ff5555\x5c007\x1e\x5c033\x5d12\x3b\x236272a4\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00

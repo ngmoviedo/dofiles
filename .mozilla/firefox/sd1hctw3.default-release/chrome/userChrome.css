@@ -53,9 +53,9 @@
 }
 
 /* Hide TST on windows with only one tab */
-#main-window[titlepreface^="[1] "] #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
-  visibility: collapse !important;
-}
+/* #main-window[titlepreface^="[1] "] #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] { */
+/*   visibility: collapse !important; */
+/* } */
 
 
 /* --- Disable URL bar expanding --- */
