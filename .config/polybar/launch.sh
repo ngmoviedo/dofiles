@@ -13,7 +13,7 @@ echo "$!" >> /tmp/polybar.pids
 polybar -r tray &
 echo "$!" >> /tmp/polybar.pids
 
-sleep 1
+sleep 2
 
 polybar-msg -p $! cmd hide
 

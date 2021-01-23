@@ -8,7 +8,7 @@
 .cargo/
 .config/QtProject.conf
 .config/VSCodium/
-.config/altus/
+.config/Altus/
 .config/appimagelauncher.cfg
 .config/autostart/
 .config/borg/
@@ -48,6 +48,7 @@
 .gitconfig
 .gnupg/
 .java/
+.lesshst
 
 .local/*
 !.local/share/nvim/site/autoload/plug.vim
