@@ -58,10 +58,10 @@ bindsym $mod+F12 exec --no-startup-id pactl set-default-sink 0 && pactl set-sink
 bindsym $mod+Shift+F12 exec --no-startup-id pactl set-default-sink 1 && pactl set-sink-port 0 "analog-output-headphones" && polybar-msg  hook audio-output 1 # Binaural Headphones
 
 # Brightness control (might require to laod ddcci module manually)
-bindsym $mod+F9  exec light -U 10 #decrease brightness
-bindsym $mod+F10 exec light -A 10 #increase brightness
-bindsym $mod+Shift+F9 exec sudo /usr/bin/backlight-reload && sleep 1 && ~/.config/polybar/scripts/restart_up.sh # restart ddcci
-bindsym $mod+Shift+F10 exec sudo /usr/bin/backlight-reload && sleep 1 && ~/.config/polybar/scripts/restart_up.sh # restart ddcci
+# bindsym $mod+F9  exec light -U 10 #decrease brightness
+# bindsym $mod+F10 exec light -A 10 #increase brightness
+# bindsym $mod+Shift+F9 exec sudo /usr/bin/backlight-reload && sleep 1 && ~/.config/polybar/scripts/restart_up.sh # restart ddcci
+# bindsym $mod+Shift+F10 exec sudo /usr/bin/backlight-reload && sleep 1 && ~/.config/polybar/scripts/restart_up.sh # restart ddcci
 
 # Check for updates (display on Polybar)
 bindsym $mod+u exec polybar-msg  hook updates-arch-combined 1
@@ -277,7 +277,7 @@ for_window [title="Send URL"] floating enable
 # Microsoft Teams
 for_window [title="Microsoft Teams Notification"] floating enable
 # Skype
-for_window [title="Skype"] floating enable border none
+for_window [title="Skype"] floating enable border normal
 # Firefox (window doesn't turn floating when going to preferences)
 #for_window [title="Preferences - Mozilla Firefox"] floating disable border pixel 2
 # Stadia
