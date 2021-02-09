@@ -64,6 +64,7 @@
 
 .npm/
 *.nvimlog
+.pkg-cache/
 .pki/
 .python_history
 .ssh/
@@ -91,3 +92,4 @@ Templates
 Videos
 bin/
 pandoc.out
+.wget-hsts/

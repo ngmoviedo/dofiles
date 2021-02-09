@@ -16,6 +16,7 @@ shittyfiles = [
     '~/.dbus',
     '~/.nv/',
     '~/.npm/',              # npm cache
+    '~/..nvimlog',
     '~/.java/',
     '~/.oracle_jre_usage/',
     '~/.cmake/',
@@ -28,7 +29,9 @@ shittyfiles = [
     '~/.config/QtProject.conf',
     '~/.config/dconf/',
     '~/.config/nvim/.netrwhist',
-    '~/pandoc.out'
+    '~/pandoc.out',
+    '~/.pkg-cache/',
+    '~/.wget-hsts'
 ]
 
 
