@@ -18,7 +18,7 @@ SETUVAR Z_EXCLUDE:\x5e/home/nicolas\x24
 SETUVAR --export _Z_DATA:/home/nicolas/\x2elocal/share/z/data
 SETUVAR __fish_initialized:3100
 SETUVAR __tf_func:function\x20__tf_alias\x20\x2dd\x20\x22Correct\x20your\x20previous\x20console\x20command\x22\x3b\x20\x20set\x20\x2dl\x20fucked_up_command\x20\x24history\x5b1\x5d\x3b\x20\x20env\x20TF_SHELL\x3dfish\x20TF_ALIAS\x3d__tf_alias\x20PYTHONIOENCODING\x3dutf\x2d8\x20thefuck\x20\x24fucked_up_command\x20THEFUCK_ARGUMENT_PLACEHOLDER\x20\x24argv\x20\x7c\x20read\x20\x2dl\x20unfucked_command\x3b\x20\x20if\x20\x5b\x20\x22\x24unfucked_command\x22\x20\x21\x3d\x20\x22\x22\x20\x5d\x3b\x20\x20\x20\x20eval\x20\x24unfucked_command\x3b\x20\x20\x20\x20builtin\x20history\x20delete\x20\x2d\x2dexact\x20\x2d\x2dcase\x2dsensitive\x20\x2d\x2d\x20\x24fucked_up_command\x3b\x20\x20\x20\x20builtin\x20history\x20merge\x20\x5e\x20/dev/null\x3b\x20\x20end\x3bend\x3b
-SETUVAR __tf_vers:The\x20Fuck\x203\x2e30\x20using\x20Python\x203\x2e8\x2e6\x20and\x20Fish\x20Shell\x203\x2e1\x2e2
+SETUVAR __tf_vers:The\x20Fuck\x203\x2e30\x20using\x20Python\x203\x2e9\x2e1\x20and\x20Fish\x20Shell\x203\x2e1\x2e2
 SETUVAR _fish_abbr_chu:checkupdates
 SETUVAR _fish_abbr_f:fuck
 SETUVAR _fish_abbr_flu:flatpak\x20update
@@ -37,6 +37,7 @@ SETUVAR _fish_abbr_poff:poweroff
 SETUVAR _fish_abbr_prns:sudo\x20pacman\x20\x2dRns
 SETUVAR _fish_abbr_pss:pacman\x20\x2dSs
 SETUVAR _fish_abbr_psyu:sudo\x20pacman\x20\x2dSyu
+SETUVAR _fish_abbr_rk:reload\x2dkeys
 SETUVAR _fish_abbr_rwin:reboot\x2dwindows
 SETUVAR _fish_abbr_sd:sudo
 SETUVAR _fish_abbr_tfgm:vi\x20/home/nicolas/Documents/Wavelets/wavelets\x2etex
@@ -52,15 +53,15 @@ SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/nicolas/\x2econfig/fish/funct
 SETUVAR _fisher_jorgebucaran_2F_replay_2E_fish_files:/home/nicolas/\x2econfig/fish/functions/bax\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/replay\x2efish\x1e/home/nicolas/\x2econfig/fish/completions/replay\x2efish
 SETUVAR _fisher_ngmoviedo_2F_plugin_2D_sudope_files:/home/nicolas/\x2econfig/fish/functions/sudope\x2efish\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/sudope\x2efish
 SETUVAR _fisher_ngmoviedo_2F_theme_2D_budspencer_files:/home/nicolas/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fish_right_prompt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd\x1e/home/nicolas/\x2econfig/fish/conf\x2ed/budspencer\x2efish
-SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_thefuck_files:/home/nicolas/\x2econfig/fish/functions/__tf_updt\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/fuck\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/init\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/thefuck\x2dcommand\x2dline\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_wttr_files:/home/nicolas/\x2econfig/fish/functions/moon\x2efish\x1e/home/nicolas/\x2econfig/fish/functions/wttr\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dthefuck\x1engmoviedo/plugin\x2dsudope\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1edracula/fish\x1engmoviedo/theme\x2dbudspencer
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1engmoviedo/plugin\x2dsudope\x1ejethrokuan/z\x1eoh\x2dmy\x2dfish/plugin\x2dwttr\x1ejorgebucaran/autopair\x2efish\x1ejorgebucaran/replay\x2efish\x1edracula/fish\x1engmoviedo/theme\x2dbudspencer
 SETUVAR budspencer_colors:000000\x1e44475a\x1e6272a4\x1efdf6e3\x1e50fa7b\x1effb86c\x1eff5555\x1eff5555\x1e6272a4\x1ebd93f9\x1effb86c\x1ebd93f9
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23bd93f9\x5c007\x1e\x5c033\x5d12\x3b\x2350fa7b\x5c007\x1e\x5c033\x5d12\x3b\x23ff5555\x5c007\x1e\x5c033\x5d12\x3b\x236272a4\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
 SETUVAR budspencer_night:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
 SETUVAR budspencer_nobell:\x1d
 SETUVAR budspencer_nocmdhist:c\x1ed\x1ell\x1els\x1em\x1es
+SETUVAR budspencer_nogreeting:\x1d
 SETUVAR budspencer_pwdstyle:short\x1elong\x1enone
 SETUVAR budspencer_sessions_active:\x1d
 SETUVAR budspencer_sessions_active_pid:\x1d

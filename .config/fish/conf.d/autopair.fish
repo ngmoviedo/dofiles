@@ -5,6 +5,8 @@ set --global autopair_right ")" "]" "}" '"' "'"
 set --global autopair_pairs "()" "[]" "{}" '""' "''"
 
 function _autopair_fish_key_bindings --on-variable fish_key_bindings
+    set --query fish_key_bindings[1] || return
+
     test $fish_key_bindings = fish_default_key_bindings &&
         set --local mode default insert ||
         set --local mode insert default
@@ -30,8 +32,8 @@ _autopair_fish_key_bindings
 
 function _autopair_uninstall --on-event autopair_uninstall
     string collect (
-        bind --all | string replace --filter --regex -- _autopair.\* --erase
-        set --names | string replace --filter --regex -- \^autopair "set --erase autopair"
+        bind --all | string replace --filter --regex -- "_autopair.*" --erase
+        set --names | string replace --filter --regex -- "^autopair" "set --erase autopair"
     ) | source
     functions --erase (functions --all | string match "_autopair_*")
 end
