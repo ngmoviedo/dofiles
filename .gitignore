@@ -47,6 +47,7 @@
 .git-credentials
 .gitconfig
 .gnupg/
+.gtk-bookmarks
 .java/
 .lesshst
 
