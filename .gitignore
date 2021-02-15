@@ -19,6 +19,7 @@
 .config/configstore/
 .config/dconf/
 .config/discover_overlay/
+.config/gtk-3.0/bookmarks
 .config/kdeconnect/
 .config/keepassxc/
 .config/libfm/
