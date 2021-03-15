@@ -275,7 +275,7 @@ for_window [title="Compose SMS"] floating enable
 for_window [title="Remote Keyboard"] floating enable
 for_window [title="Send URL"] floating enable
 # Microsoft Teams
-for_window [title="Microsoft Teams"] floating enable border none
+# for_window [title="Microsoft Teams"] floating enable border none
 # Skype
 for_window [title="Skype"] floating enable border normal
 # Firefox (window doesn't turn floating when going to preferences)
