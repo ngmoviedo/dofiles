@@ -19,3 +19,5 @@ eval "$(starship init bash)"
 #then
 #	exec fish
 #fi
+
+eval "$(thefuck --alias)"

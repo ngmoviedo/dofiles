@@ -32,6 +32,7 @@ SETUVAR _fish_abbr_gst:git\x20status
 SETUVAR _fish_abbr_l:less
 SETUVAR _fish_abbr_lsa:ls\x20\x2da
 SETUVAR _fish_abbr_nv:nvim
+SETUVAR _fish_abbr_ods:onedrive\x20\x2d\x2dsynchronize
 SETUVAR _fish_abbr_pas:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_poff:poweroff
 SETUVAR _fish_abbr_prns:sudo\x20pacman\x20\x2dRns
@@ -40,8 +41,6 @@ SETUVAR _fish_abbr_psyu:sudo\x20pacman\x20\x2dSyu
 SETUVAR _fish_abbr_rk:reload\x2dkeys
 SETUVAR _fish_abbr_rwin:reboot\x2dwindows
 SETUVAR _fish_abbr_sd:sudo
-SETUVAR _fish_abbr_tfgm:vi\x20/home/nicolas/Documents/Wavelets/wavelets\x2etex
-SETUVAR _fish_abbr_tfgsync:onedrive\x20\x2d\x2dsynchronize\x20\x2d\x2dupload\x2donly\x20\x2d\x2dsingle\x2ddirectory\x20IA\x2dbiomedicina
 SETUVAR _fish_abbr_v:vi
 SETUVAR _fish_abbr_vk:vitty
 SETUVAR _fish_abbr_yqum:yay\x20\x2dQum

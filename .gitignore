@@ -12,6 +12,7 @@
 .config/appimagelauncher.cfg
 .config/autostart/
 .config/borg/
+.config/balena-etcher-electron/
 .config/calibre/
 .config/cef_user_data/
 .config/chromium/
