@@ -38,6 +38,7 @@
 .config/pulse/
 .config/ranger/plugins/
 .config/systemd/
+.config/teams-for-linux/
 .config/thefuck/
 .config/transmission/
 .config/unity3d/
