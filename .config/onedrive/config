@@ -7,6 +7,7 @@
 #
 sync_dir = "~/Documents/IA_biomedicina"
 # skip_file = "~*|.~*|*.tmp"
+skip_file = "~*|*.asv"
 # monitor_interval = "45"
 # skip_dir = "Attachments|Compartido con todos los usuarios|Datos adjuntos de correo electrónico"
 # log_dir = "/var/log/onedrive/"
