@@ -70,4 +70,3 @@ SETUVAR fish_key_bindings:fish_vi_key_bindings
 SETUVAR readme_file:/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd
 SETUVAR readme_file_fisher:/home/nicolas/\x2econfig/fish/functions/README_budspencer\x2emd
 SETUVAR readme_file_omf:/themes/budspencer/functions/README_budspencer\x2emd
-SETUVAR theme:gruvbox\x2dmaterial\x2ddark\x2dmedium

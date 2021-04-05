@@ -49,6 +49,7 @@
 .config/xpad/
 .git-credentials
 .gitconfig
+.gnome/
 .gnupg/
 .gtk-bookmarks
 .java/
@@ -76,6 +77,7 @@
 .steampath
 .steampid
 .terminfo/
+.texlive/
 .thunderbird/
 .tor-browser/
 .var/
@@ -83,17 +85,19 @@
 .whatsdesk/
 Applications/
 Calibre Library/
-Documents
-Downloads
+Documents/
+Downloads/
 Games
+GOG Games/
 Keyring
 MATLAB Add-Ons/
-Music
+Music/
 OneDrive/
-Pictures
-Public
-Templates
-Videos
+Pictures/
+Public/
+Templates/
+Videos/
 bin/
 pandoc.out
+java.log.*
 .wget-hsts/
