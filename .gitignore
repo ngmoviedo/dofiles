@@ -40,6 +40,7 @@
 .config/systemd/
 .config/teams-for-linux/
 .config/thefuck/
+.config/torbrowser/
 .config/transmission/
 .config/unity3d/
 .config/vlc/
