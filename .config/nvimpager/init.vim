@@ -1,7 +1,7 @@
 set runtimepath+=~/.local/share/nvim/site
-call plug#begin(stdpath('data') . '/plugged')
-Plug 'dracula/vim', { 'as': 'dracula' }
-call plug#end()
+" call plug#begin(stdpath('data') . '/plugged')
+" Plug 'dracula/vim', { 'as': 'dracula' }
+" call plug#end()
 " Themes and colours
 " Color scheme
 set termguicolors

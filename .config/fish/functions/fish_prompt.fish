@@ -87,13 +87,7 @@ end
 # => Help
 #########
 function budspencer_help -d 'Show helpfile'
-  set -l readme_file_omf "$OMF_PATH/themes/budspencer/functions/budspencer.md"
-  set -l readme_file_fisher "$__fish_config_dir/functions/budspencer.md"
-  if test -f $readme_file_omf
-    set -l readme_file "$readme_file_omf"
-  else if test -f $readme_file_fisher
-    set -l readme_file "$readme_file_fisher"
-  end
+  set -l readme_file "$OMF_PATH/themes/budspencer/README.md"
   if set -q PAGER
     if [ -e $readme_file ]
       eval $PAGER $readme_file
@@ -852,7 +846,7 @@ set -g no_prompt_hist 'F'
 set -g symbols_style 'symbols'
 
 # Fix for WSL showing wrong command number at start
-if test (uname -r | /bin/grep [Mm]icrosoft)
+if test (uname -r | command grep -i microsoft)
   set -g pcount 0
 end
 

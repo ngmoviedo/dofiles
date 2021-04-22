@@ -27,6 +27,7 @@
 .config/libreoffice/
 .config/menus/
 .config/nvim/.netrwhist
+.config/nvim-bak/
 
 .config/onedrive/*
 !.config/onedrive/config

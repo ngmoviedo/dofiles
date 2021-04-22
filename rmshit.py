@@ -16,7 +16,7 @@ shittyfiles = [
     '~/.dbus',
     '~/.nv/',
     '~/.npm/',              # npm cache
-    '~/..nvimlog',
+    '~/.nvimlog',
     '~/.java/',
     '~/.oracle_jre_usage/',
     '~/.cmake/',
