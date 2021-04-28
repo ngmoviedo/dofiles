@@ -29,8 +29,7 @@
 .config/nvim/.netrwhist
 .config/nvim-bak/
 
-.config/onedrive/*
-!.config/onedrive/config
+.config/onedrive/
 
 .config/oomox/
 .config/pavucontrol.ini
@@ -38,6 +37,7 @@
 .config/pipewire-media-session/
 .config/pulse/
 .config/ranger/plugins/
+.config/redshift/
 .config/systemd/
 .config/teams-for-linux/
 .config/thefuck/
