@@ -1,0 +1,34 @@
+version: 2
+log-file: /tmp/efm.log
+log-level: 4
+root-markers:
+  - .git/
+
+tools:
+    mlint: &mlint
+        lint-command: '/usr/bin/mlint -severity'
+        lint-stdin: false
+        lint-stderr: true
+        lint-ignore-exit-code: true
+        lint-formats:
+            - 'L %l (C %c): ML%t: %m'
+            - 'L %l (C %c-%*[0-9]): ML%t: %m'
+        lint-category-map:
+            0: I
+            1: W
+            2: W
+            3: E
+
+    fish: &fish
+        lint-command: '/usr/bin/fish -n'
+        lint-stdin: false
+        lint-stderr: true
+        lint-formats:
+            - '%f (line %l): %m'
+
+languages:
+    matlab:
+        - <<: *mlint
+    fish:
+        - <<: *fish
+
