@@ -1,5 +1,0 @@
-@-moz-document url("about:newtab"), url("about:home") {
-   
-   /*Search bar position*/
-   .search-wrapper { margin-top: 250px !important; }
-}

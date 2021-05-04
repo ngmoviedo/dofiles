@@ -61,14 +61,7 @@
 !.local/share/nvim/site/autoload/plug.vim
 
 .matlab/
-
-.mozilla/*
-!.mozilla/firefox
-.mozilla/firefox/*
-!.mozilla/firefox/sd1hctw3.default-release
-.mozilla/firefox/sd1hctw3.default-release/*
-!.mozilla/firefox/sd1hctw3.default-release/chrome
-
+.mozilla/
 .npm/
 *.nvimlog
 .pkg-cache/
