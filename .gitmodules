@@ -4,9 +4,6 @@
 [submodule ".config/zathura"]
 	path = .config/zathura
 	url = https://github.com/ngmoviedo/zathurarc.git
-[submodule ".config/efm-langserver"]
-	path = .config/efm-langserver
-	url = https://github.com/ngmoviedo/efm-langserver-settings.git
 [submodule ".config/fish"]
 	path = .config/fish
 	url = https://github.com/ngmoviedo/fish-configuration.git
