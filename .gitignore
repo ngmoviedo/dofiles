@@ -20,22 +20,22 @@
 .config/configstore/
 .config/dconf/
 .config/discover_overlay/
-.config/gtk-3.0/bookmarks
+.config/gtk-*
 .config/kdeconnect/
 .config/keepassxc/
+.config/Kvantum/
 .config/libfm/
 .config/libreoffice/
 .config/menus/
 .config/nvim/.netrwhist
 .config/nvim-bak/
-
 .config/onedrive/
-
 .config/oomox/
 .config/pavucontrol.ini
 .config/pcmanfm-qt/
 .config/pipewire-media-session/
 .config/pulse/
+.config/qt5ct/
 .config/ranger/plugins/
 .config/redshift/
 .config/systemd/
@@ -55,6 +55,8 @@
 .gnome/
 .gnupg/
 .gtk-bookmarks
+.gtkrc-2.0
+.icons/
 .java/
 .lesshst
 
@@ -74,6 +76,7 @@
 .steampath
 .steampid
 .terminfo/
+.themes/
 .texlive/
 .thunderbird/
 .tor-browser/
