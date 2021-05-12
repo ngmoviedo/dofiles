@@ -49,6 +49,7 @@
 .config/xarchiver/
 .config/xfce4/
 .config/xpad/
+.dotnet/
 .git-credentials
 .gitconfig
 .gnome/
@@ -63,6 +64,7 @@
 .matlab/
 .mozilla/
 .npm/
+.nuget/
 *.nvimlog
 .pkg-cache/
 .pki/
@@ -78,6 +80,8 @@
 .var/
 .vscode-oss/
 .whatsdesk/
+.yarnrc
+.zoom/
 Applications/
 Calibre Library/
 Documents/
