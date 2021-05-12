@@ -31,7 +31,11 @@ shittyfiles = [
     '~/.config/nvim/.netrwhist',
     '~/pandoc.out',
     '~/.pkg-cache/',
-    '~/.wget-hsts'
+    '~/.wget-hsts',
+    '~/.dotnet/',
+    '~/.nuget/',
+    '~/.yarnrc',
+    '~/.yarn/'
 ]
 
 
