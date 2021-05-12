@@ -1,14 +1,14 @@
 " Plugins
-" Do not run :PlugClean from nvimpager!
 set runtimepath+=~/.local/share/nvim/site " the neovim one
-call plug#begin(stdpath('data') . '/plugged')
-Plug 'dracula/vim', { 'as': 'dracula' }
-call plug#end()
 
 " Themes and colours
 " Color scheme
 set termguicolors
 colorscheme dracula
+
+" Indentation rules
+let g:indent_blankline_filetype_exclude = 'man'
+let g:indent_blankline_buftype_exclude = 'nofile'
 
 " Usual clipboard mappings
 inoremap <C-v> <ESC>"+pa
