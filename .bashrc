@@ -11,13 +11,5 @@ PS1='[\u@\h \W]\$ '
 # Vi mode
 set -o vi
 
-# Starship prompt
-eval "$(starship init bash)"
-
-# Drops to fish as interactive shell, except if bash is called when inside fish.
-#if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" ]]
-#then
-#	exec fish
-#fi
-
+# Alias
 eval "$(thefuck --alias)"
