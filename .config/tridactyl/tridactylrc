@@ -1,0 +1,30 @@
+"
+" Binds
+"
+
+" Remove some bindings
+" Toggle sidebar
+unbind <F1>
+" Conflicts with Dark Reader
+unbind D
+
+" Normal find
+bind / fillcmdline find
+bind ? fillcmdline find -?
+bind n findnext 1
+bind N findnext -1
+bind ,<Space> nohlsearch
+
+"
+" External editor
+"
+
+set editorcmd kitty nvim %f
+
+"
+" Excluded url
+"
+
+autocmd DocStart overleaf.com mode ignore
+
+" vim: set filetype=tridactyl

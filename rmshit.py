@@ -35,7 +35,11 @@ shittyfiles = [
     '~/.dotnet/',
     '~/.nuget/',
     '~/.yarnrc',
-    '~/.yarn/'
+    '~/.yarn/',
+    '~/.pkg-cache',
+    '~/.tree-sitter/',
+    '~/.texlive/',
+    '~/.zoom/'
 ]
 
 
