@@ -40,3 +40,4 @@ application/x-trash=nvim.desktop;
 text/x-python3=nvim.desktop;
 text/plain=nvim.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-S1V9V0.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;

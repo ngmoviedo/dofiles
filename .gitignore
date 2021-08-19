@@ -20,6 +20,8 @@
 .config/configstore/
 .config/dconf/
 .config/discover_overlay/
+.config/Electron
+.config/Code - OSS
 .config/gtk-*
 .config/kdeconnect/
 .config/keepassxc/
