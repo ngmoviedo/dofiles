@@ -22,6 +22,7 @@
 .config/discover_overlay/
 .config/Electron
 .config/Code - OSS
+.config/github-copilot/
 .config/gtk-*
 .config/kdeconnect/
 .config/keepassxc/
@@ -32,6 +33,7 @@
 .config/nvim/.netrwhist
 .config/nvim-bak/
 .config/onedrive/
+.config/ookla/
 .config/oomox/
 .config/pavucontrol.ini
 .config/pcmanfm-qt/
@@ -67,6 +69,7 @@
 
 .matlab/
 .mozilla/
+.nimble/
 .npm/
 .nuget/
 *.nvimlog
@@ -102,6 +105,8 @@ Public/
 Templates/
 Videos/
 bin/
+snap/
 pandoc.out
 java.log.*
+.yarn/
 .wget-hsts/
