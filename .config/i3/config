@@ -64,7 +64,7 @@ bindsym $mod+Shift+F12 exec --no-startup-id pactl set-default-sink 1 && pactl se
 # bindsym $mod+Shift+F10 exec sudo /usr/bin/backlight-reload && sleep 1 && ~/.config/polybar/scripts/restart_up.sh # restart ddcci
 
 # Check for updates (display on Polybar)
-bindsym $mod+u exec polybar-msg  hook updates-arch-combined 1
+bindsym $mod+u exec polybar-msg action updates-arch-combined reset
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod

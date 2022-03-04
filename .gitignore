@@ -11,6 +11,7 @@
 .config/Altus/
 .config/appimagelauncher.cfg
 .config/autostart/
+.config/*.bin
 .config/borg/
 .config/balena-etcher-electron/
 .config/calibre/
@@ -73,6 +74,7 @@
 .npm/
 .nuget/
 *.nvimlog
+.nvidia-settings-rc
 .pkg-cache/
 .pki/
 .python_history
@@ -88,6 +90,7 @@
 .var/
 .vscode-oss/
 .whatsdesk/
+.wxEDID_cfg
 .yarnrc
 .zoom/
 Applications/
